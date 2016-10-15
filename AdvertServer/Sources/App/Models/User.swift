@@ -25,6 +25,11 @@ final class User: Model {
         self.login = login
         self.hash = BCrypt.hash(password: password)
     }
+    init(user: User) {
+        self.name = user.name
+        self.login = user.login
+        self.hash = user.hash
+    }
     
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
@@ -43,7 +48,6 @@ final class User: Model {
             "access_token": token
             ])
     }
-    
     static func prepare(_ database: Database) throws {
         try database.create("users") { users in
             users.id()
@@ -68,12 +72,8 @@ extension User: Auth.User {
         case let accessToken as AccessToken:
             user = try User.query().filter("access_token", accessToken.string).first()
         case let apiKey as APIKey:
-            print("get apikey: ", apiKey)
             do {
                 if let tempUser = try User.query().filter("login", apiKey.id).first() {
-                    print("user found, checking password")
-                    print(apiKey.secret)
-                    print(tempUser.hash)
                     if try BCrypt.verify(password: apiKey.secret, matchesHash: tempUser.hash) {
                         print("password matched")
                         user = tempUser
