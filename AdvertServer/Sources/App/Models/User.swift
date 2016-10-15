@@ -9,25 +9,38 @@
 import Foundation
 import Vapor
 import Auth
+import BCrypt
 
 final class User: Model {
     var id: Node?
     var name: String
+    var login: String
+    var hash: String
+    var token: String = ""
+    
     var exists: Bool = false
     
-    init(name: String) {
+    init(name: String, login: String, password: String) {
         self.name = name
+        self.login = login
+        self.hash = BCrypt.hash(password: password)
     }
     
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
         name = try node.extract("name")
+        login = try node.extract("login")
+        hash = try node.extract("hash")
+        token = try node.extract("access_token")
     }
     
     func makeNode(context: Context) throws -> Node {
         return try Node(node: [
             "id": id,
-            "name": name
+            "name": name,
+            "login": login,
+            "hash": hash,
+            "access_token": token
             ])
     }
     
@@ -35,7 +48,9 @@ final class User: Model {
         try database.create("users") { users in
             users.id()
             users.string("name")
-            
+            users.string("login")
+            users.string("hash")
+            users.string("access_token")
         }
     }
     
@@ -45,7 +60,7 @@ final class User: Model {
 }
 extension User: Auth.User {
     static func authenticate(credentials: Credentials) throws -> Auth.User {
-        let user: User?
+        var user: User?
         
         switch credentials {
         case let id as Identifier:
@@ -53,16 +68,26 @@ extension User: Auth.User {
         case let accessToken as AccessToken:
             user = try User.query().filter("access_token", accessToken.string).first()
         case let apiKey as APIKey:
-            user = try User.query().filter("email", apiKey.id).filter("password", apiKey.secret).first()
+            print("get apikey: ", apiKey)
+            do {
+                if let tempUser = try User.query().filter("login", apiKey.id).first() {
+                    print("user found, checking password")
+                    print(apiKey.secret)
+                    print(tempUser.hash)
+                    if try BCrypt.verify(password: apiKey.secret, matchesHash: tempUser.hash) {
+                        print("password matched")
+                        user = tempUser
+                    }
+                }
+            }
         default:
             throw Abort.custom(status: .badRequest, message: "Invalid credentials.")
         }
         
-        guard let u = user else {
+        guard let us = user else {
             throw Abort.custom(status: .badRequest, message: "User not found.")
         }
-        
-        return u
+        return us
     }
     
     static func register(credentials: Credentials) throws -> Auth.User {
