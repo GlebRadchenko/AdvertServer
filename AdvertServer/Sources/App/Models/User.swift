@@ -35,7 +35,7 @@ final class User: Model {
         try database.create("users") { users in
             users.id()
             users.string("name")
-
+            
         }
     }
     
