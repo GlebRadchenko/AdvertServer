@@ -68,15 +68,25 @@ class UserController {
                 let creds = APIKey(id: login,
                                        secret: password)
                 try req.auth.login(creds)
-                if var user = try req.auth.user() as? User {
+                if let user = try req.auth.user() as? User {
                     print("working with user")
                     print(user.token)
                     user.token = self.token(for: user)
                     let node = ["message": "Logged in", "access_token" : user.token]
                     return try JSON(node: node)
                 }
-                return try JSON(node: ["error": "invalid credentials"])
+                throw Abort.badRequest
             }
+            users.post("logout", handler: { (req) in
+                guard let token = req.auth.header?.bearer else {
+                    throw Abort.notFound
+                }
+                if let user = try User.query().filter("access_token", token.string).first() {
+                    user.token = ""
+                    throw Abort.custom(status: .accepted, message: "Logout succesed")
+                }
+                throw Abort.badRequest
+            })
             
             let protect = ProtectMiddleware(error:
                 Abort.custom(status: .forbidden, message: "Not authorized.")
