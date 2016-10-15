@@ -103,6 +103,6 @@ class UserController {
     }
     
     func token(for user: User) -> String {
-        return encode(["hash":user.hash], algorithm: .hs256("secret".data(using: .utf8)!))
+        return JWT.encode(["hash":user.hash], algorithm: .hs256("secret".data(using: .utf8)!))
     }
 }
