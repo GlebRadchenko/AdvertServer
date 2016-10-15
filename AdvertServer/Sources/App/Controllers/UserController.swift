@@ -52,6 +52,7 @@ class UserController {
         userGroup.post(handler: register)
         userGroup.post("login", handler: login)
         userGroup.post("logout", handler: logout)
+        //TODO: Edit user, delete user
     }
     func register(_ req: Request) throws -> ResponseRepresentable {
         guard let name = req.data["name"]?.string,
@@ -77,7 +78,7 @@ class UserController {
         try req.auth.login(creds)
         guard let id = try req.auth.user().id,
             let user = try User.find(id) else {
-                throw Abort.badRequest
+                throw Abort.notFound
         }
         var newUser = User(user: user)
         newUser.token = self.token(for: user)
