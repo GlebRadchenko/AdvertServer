@@ -13,6 +13,7 @@ import Auth
 final class User: Model {
     var id: Node?
     var name: String
+    var exists: Bool = false
     
     init(name: String) {
         self.name = name
@@ -34,6 +35,7 @@ final class User: Model {
         try database.create("users") { users in
             users.id()
             users.string("name")
+
         }
     }
     
