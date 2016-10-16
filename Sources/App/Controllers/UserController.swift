@@ -119,7 +119,7 @@ class UserController {
         print("login6")
         var newUser = User(user: user)
         print("login7")
-        newUser.token = self.token(for: user)
+        //newUser.token = self.token(for: user)
         print("login8")
         do {
             print("login9")
