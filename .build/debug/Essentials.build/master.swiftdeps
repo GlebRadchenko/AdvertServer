@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "e185f2be82a9d80851b98d07b54f6d73"
-build_time: [529942916, 810272000]
-inputs:
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Essentials/ByteStream.swift": [529942706, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Essentials/Helpers.swift": [529942706, 0]

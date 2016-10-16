@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "26108af5be768956991f94feaaa91f94"
-build_time: [529942929, 843392000]
-inputs:
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/MongoKitten-1.7.1/Sources/MongoHMAC/HMAC.swift": [529942830, 0]

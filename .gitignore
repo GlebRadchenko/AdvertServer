@@ -1,0 +1,9 @@
+*build/
+*.build/
+*.xcodeproj/
+*.xcuserstate
+/build/*
+build/*
+/.build/*
+.build/*
+.xcodeproj/*

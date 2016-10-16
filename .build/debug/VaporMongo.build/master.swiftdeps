@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "6d532ffe10ea2442ac84e9d516881597"
-build_time: [529942962, 664560000]
-inputs:
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/VaporMongo-1.0.0/Sources/VaporMongo/Provider.swift": [529942822, 0]

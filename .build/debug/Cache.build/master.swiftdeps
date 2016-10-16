@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "2452387ae319cc5bfcb4f41b9e99bc71"
-build_time: [529942943, 144662000]
-inputs:
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Cache/CacheProtocol.swift": [529942687, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Cache/FluentCache.swift": [529942687, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Cache/MemoryCache.swift": [529942687, 0]

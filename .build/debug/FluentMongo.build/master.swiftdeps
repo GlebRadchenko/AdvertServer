@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "1dc83606b96b4a8d30159d2365a06393"
-build_time: [529942950, 427055000]
-inputs:
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/BSON+StructuredData.swift": [529942824, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/Filter+MongoKitten.swift": [529942824, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/MongoDriver.swift": [529942824, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/Query+MongoKitten.swift": [529942824, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/StructuredData+BSON.swift": [529942824, 0]

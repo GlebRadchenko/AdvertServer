@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "6df6add111e9c6cade1e75db673e065c"
-build_time: [529942894, 926929000]
-inputs:
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/BCrypt.swift": [529942815, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/Random.swift": [529942815, 0]
-  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/URandom.swift": [529942815, 0]
