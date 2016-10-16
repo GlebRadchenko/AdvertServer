@@ -81,7 +81,7 @@ public func encode(_ payload:Payload, algorithm:Algorithm) -> String {
     return nil
   }
 
-  let header = encodeJSON(["typ": "JWT" as AnyObject, "alg": algorithm.description as! AnyObject])!
+  let header = encodeJSON(["typ": "JWT" as! AnyObject, "alg": algorithm.description as! AnyObject])!
   let payload = encodeJSON(payload)!
   let signingInput = "\(header).\(payload)"
   let signature = algorithm.sign(signingInput)
