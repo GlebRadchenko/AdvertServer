@@ -14,7 +14,8 @@ drop.get { req in
     	"message": drop.localization[req.lang, "welcome", "title"]
     ])
 }
-
+print(encode(["start": "asdasd",
+              "end": "ASDASD"], algorithm: .hs256("asfasf".data(using: .utf8)!)))
 //MARK: - Adding User routing
 let userController = UserController(drop: drop)
 userController.setup()
