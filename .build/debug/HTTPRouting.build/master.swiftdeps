@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "8f35fc7ec48287b156e52c5a7e94a569"
+build_time: [529942951, 144826000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/HTTPRouting/Request+Routing.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/HTTPRouting/RouteBuilder+HTTP.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/HTTPRouting/Router+HTTP.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/HTTPRouting/Routing+HTTP.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/HTTPRouting/Utilities.swift": [529942687, 0]

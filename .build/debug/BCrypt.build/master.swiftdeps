@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "f8539bf85dc34164eca41057856a81d6"
+build_time: [529942928, 879442000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/BCrypt/BCrypt.swift": [529942706, 0]

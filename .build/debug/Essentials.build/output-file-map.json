@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/master.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Essentials/ByteStream.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/ByteStream.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/ByteStream.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/ByteStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/ByteStream.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Essentials/Helpers.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/Helpers.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/Helpers.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.build/Helpers.swiftdeps"
+  }
+}

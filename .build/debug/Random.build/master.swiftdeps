@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "c42d8d41c3e2a5823f06371eec7a06e4"
+build_time: [529942921, 533582000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Random/CryptoRandom.swift": [529942706, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Random/Random.swift": [529942706, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/Random/URandom.swift": [529942706, 0]

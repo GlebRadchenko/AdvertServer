@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/master.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/BSON+StructuredData.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/BSON+StructuredData.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/BSON+StructuredData.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/BSON+StructuredData~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/BSON+StructuredData.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/Filter+MongoKitten.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Filter+MongoKitten.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Filter+MongoKitten.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Filter+MongoKitten~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Filter+MongoKitten.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/MongoDriver.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/MongoDriver.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/MongoDriver.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/MongoDriver~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/MongoDriver.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/Query+MongoKitten.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Query+MongoKitten.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Query+MongoKitten.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Query+MongoKitten~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/Query+MongoKitten.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/FluentMongo-1.0.2/Sources/StructuredData+BSON.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/StructuredData+BSON.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/StructuredData+BSON.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/StructuredData+BSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.build/StructuredData+BSON.swiftdeps"
+  }
+}

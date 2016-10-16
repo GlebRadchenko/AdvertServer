@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "6716230590fbc80ab0a0ad79690ce59c"
+build_time: [529942893, 743065000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Address+C.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Address.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Bytes.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Conversions.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Error.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/FDSet.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/InternetSocket.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Pipe.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Select.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Socket.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/SocketOptions.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/TCPSocket.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/Types.swift": [529942797, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Socks-1.0.1/Sources/SocksCore/UDPSocket.swift": [529942797, 0]

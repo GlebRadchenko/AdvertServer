@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "6898e22c839d1e870f9fe7d8d74318d0"
+build_time: [529942946, 177136000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/AuthError.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/AuthMiddleware.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/CacheSessionManager.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/ProtectMiddleware.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Request+Subject.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Authenticator/Authenticator.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Authenticator/Realm.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Authenticator/User+Authenticator.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Credentials/Identifier.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Header/Authorization.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Header/Basic.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Header/Bearer.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/Header/Request+Authorization.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Auth/Authentication/User/User.swift": [529942687, 0]

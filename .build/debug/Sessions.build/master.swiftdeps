@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "704cbb2623005092f241347dbf799b08"
+build_time: [529942946, 177136000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Sessions/CacheSessions.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Sessions/MemorySessions.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Sessions/Request+Session.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Sessions/Session.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Sessions/SessionsMiddleware.swift": [529942687, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Vapor-1.1.1/Sources/Sessions/SessionsProtocol.swift": [529942687, 0]

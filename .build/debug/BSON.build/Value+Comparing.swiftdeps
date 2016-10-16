@@ -1,0 +1,561 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "==="
+provides-nominal:
+- "O4BSON5Value"
+provides-member:
+- ["O4BSON5Value", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Document"
+- !private "&&"
+- "Int32"
+- "Int64"
+- "Date"
+- "ObjectId"
+- !private "BooleanLiteralType"
+- "Bool"
+- "String"
+- "Int"
+- "Equatable"
+- "UInt8"
+- "Double"
+- "Value"
+- "==="
+- "=="
+depends-member:
+- !private ["Ps9AnyObject", "lowercased"]
+- ["Sa", "deinit"]
+- ["O4BSON13BinarySubtype", "deinit"]
+- !private ["O4BSON13BinarySubtype", "rawValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "lowercased"]
+- !private ["Ps10Collection", "arrayValue"]
+- !private ["Ps10Collection", "dictionaryValue"]
+- !private ["Ps10Collection", "validatesAsArray"]
+- ["Ps10Comparable", "array"]
+- ["Ps10Comparable", "binary"]
+- !private ["Ps10Comparable", "boolValue"]
+- ["Ps10Comparable", "boolean"]
+- !private ["Ps10Comparable", "bytes"]
+- ["Ps10Comparable", "dateTime"]
+- ["Ps10Comparable", "document"]
+- !private ["Ps10Comparable", "documentValue"]
+- ["Ps10Comparable", "double"]
+- !private ["Ps10Comparable", "doubleValue"]
+- !private ["Ps10Comparable", "int"]
+- ["Ps10Comparable", "int32"]
+- !private ["Ps10Comparable", "int32Value"]
+- ["Ps10Comparable", "int64"]
+- !private ["Ps10Comparable", "int64Value"]
+- ["Ps10Comparable", "javascriptCode"]
+- ["Ps10Comparable", "javascriptCodeWithScope"]
+- !private ["Ps10Comparable", "lowercased"]
+- ["Ps10Comparable", "maxKey"]
+- ["Ps10Comparable", "minKey"]
+- ["Ps10Comparable", "nothing"]
+- ["Ps10Comparable", "null"]
+- ["Ps10Comparable", "objectId"]
+- !private ["Ps10Comparable", "objectIdValue"]
+- ["Ps10Comparable", "regularExpression"]
+- ["Ps10Comparable", "string"]
+- !private ["Ps10Comparable", "stringValue"]
+- ["Ps10Comparable", "timestamp"]
+- !private ["Ps10Comparable", "typeIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "lowercased"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "arrayValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "dictionaryValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "lowercased"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "validatesAsArray"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "lowercased"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "arrayValue"]
+- !private ["Ps23CustomStringConvertible", "dictionaryValue"]
+- !private ["Ps23CustomStringConvertible", "lowercased"]
+- !private ["Ps23CustomStringConvertible", "validatesAsArray"]
+- ["V10Foundation4Date", "deinit"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["V4BSON8Document", "arrayValue"]
+- ["V4BSON8Document", "deinit"]
+- !private ["V4BSON8Document", "dictionaryValue"]
+- !private ["V4BSON8Document", "validatesAsArray"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_storage"]
+- ["Ps9Equatable", "array"]
+- !private ["Ps9Equatable", "arrayValue"]
+- ["Ps9Equatable", "binary"]
+- !private ["Ps9Equatable", "boolValue"]
+- ["Ps9Equatable", "boolean"]
+- !private ["Ps9Equatable", "bytes"]
+- ["Ps9Equatable", "dateTime"]
+- !private ["Ps9Equatable", "dictionaryValue"]
+- ["Ps9Equatable", "document"]
+- !private ["Ps9Equatable", "documentValue"]
+- ["Ps9Equatable", "double"]
+- !private ["Ps9Equatable", "doubleValue"]
+- !private ["Ps9Equatable", "hexString"]
+- !private ["Ps9Equatable", "int"]
+- ["Ps9Equatable", "int32"]
+- !private ["Ps9Equatable", "int32Value"]
+- ["Ps9Equatable", "int64"]
+- !private ["Ps9Equatable", "int64Value"]
+- ["Ps9Equatable", "javascriptCode"]
+- ["Ps9Equatable", "javascriptCodeWithScope"]
+- !private ["Ps9Equatable", "lowercased"]
+- ["Ps9Equatable", "maxKey"]
+- ["Ps9Equatable", "minKey"]
+- ["Ps9Equatable", "nothing"]
+- ["Ps9Equatable", "null"]
+- ["Ps9Equatable", "objectId"]
+- !private ["Ps9Equatable", "objectIdValue"]
+- ["Ps9Equatable", "regularExpression"]
+- ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "stringValue"]
+- ["Ps9Equatable", "timestamp"]
+- !private ["Ps9Equatable", "typeIdentifier"]
+- !private ["Ps9Equatable", "validatesAsArray"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "array"]
+- !private ["Ps25ExpressibleByArrayLiteral", "arrayValue"]
+- ["Ps25ExpressibleByArrayLiteral", "binary"]
+- !private ["Ps25ExpressibleByArrayLiteral", "boolValue"]
+- ["Ps25ExpressibleByArrayLiteral", "boolean"]
+- !private ["Ps25ExpressibleByArrayLiteral", "bytes"]
+- ["Ps25ExpressibleByArrayLiteral", "dateTime"]
+- !private ["Ps25ExpressibleByArrayLiteral", "dictionaryValue"]
+- ["Ps25ExpressibleByArrayLiteral", "document"]
+- !private ["Ps25ExpressibleByArrayLiteral", "documentValue"]
+- ["Ps25ExpressibleByArrayLiteral", "double"]
+- !private ["Ps25ExpressibleByArrayLiteral", "doubleValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "int"]
+- ["Ps25ExpressibleByArrayLiteral", "int32"]
+- !private ["Ps25ExpressibleByArrayLiteral", "int32Value"]
+- ["Ps25ExpressibleByArrayLiteral", "int64"]
+- !private ["Ps25ExpressibleByArrayLiteral", "int64Value"]
+- ["Ps25ExpressibleByArrayLiteral", "javascriptCode"]
+- ["Ps25ExpressibleByArrayLiteral", "javascriptCodeWithScope"]
+- ["Ps25ExpressibleByArrayLiteral", "maxKey"]
+- ["Ps25ExpressibleByArrayLiteral", "minKey"]
+- ["Ps25ExpressibleByArrayLiteral", "nothing"]
+- ["Ps25ExpressibleByArrayLiteral", "null"]
+- ["Ps25ExpressibleByArrayLiteral", "objectId"]
+- !private ["Ps25ExpressibleByArrayLiteral", "objectIdValue"]
+- ["Ps25ExpressibleByArrayLiteral", "regularExpression"]
+- ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "stringValue"]
+- ["Ps25ExpressibleByArrayLiteral", "timestamp"]
+- !private ["Ps25ExpressibleByArrayLiteral", "typeIdentifier"]
+- !private ["Ps25ExpressibleByArrayLiteral", "validatesAsArray"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "array"]
+- ["Ps27ExpressibleByBooleanLiteral", "binary"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "boolValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "boolean"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "bytes"]
+- ["Ps27ExpressibleByBooleanLiteral", "dateTime"]
+- ["Ps27ExpressibleByBooleanLiteral", "document"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "documentValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "double"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "doubleValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "int"]
+- ["Ps27ExpressibleByBooleanLiteral", "int32"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "int32Value"]
+- ["Ps27ExpressibleByBooleanLiteral", "int64"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "int64Value"]
+- ["Ps27ExpressibleByBooleanLiteral", "javascriptCode"]
+- ["Ps27ExpressibleByBooleanLiteral", "javascriptCodeWithScope"]
+- ["Ps27ExpressibleByBooleanLiteral", "maxKey"]
+- ["Ps27ExpressibleByBooleanLiteral", "minKey"]
+- ["Ps27ExpressibleByBooleanLiteral", "nothing"]
+- ["Ps27ExpressibleByBooleanLiteral", "null"]
+- ["Ps27ExpressibleByBooleanLiteral", "objectId"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "objectIdValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "regularExpression"]
+- ["Ps27ExpressibleByBooleanLiteral", "string"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "stringValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "timestamp"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "typeIdentifier"]
+- ["Ps30ExpressibleByDictionaryLiteral", "array"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "arrayValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "binary"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "boolValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "boolean"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "bytes"]
+- ["Ps30ExpressibleByDictionaryLiteral", "dateTime"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "dictionaryValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "document"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "documentValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "double"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "doubleValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "int"]
+- ["Ps30ExpressibleByDictionaryLiteral", "int32"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "int32Value"]
+- ["Ps30ExpressibleByDictionaryLiteral", "int64"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "int64Value"]
+- ["Ps30ExpressibleByDictionaryLiteral", "javascriptCode"]
+- ["Ps30ExpressibleByDictionaryLiteral", "javascriptCodeWithScope"]
+- ["Ps30ExpressibleByDictionaryLiteral", "maxKey"]
+- ["Ps30ExpressibleByDictionaryLiteral", "minKey"]
+- ["Ps30ExpressibleByDictionaryLiteral", "nothing"]
+- ["Ps30ExpressibleByDictionaryLiteral", "null"]
+- ["Ps30ExpressibleByDictionaryLiteral", "objectId"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "objectIdValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "regularExpression"]
+- ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "stringValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "timestamp"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "typeIdentifier"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "validatesAsArray"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "array"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "binary"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "boolValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "boolean"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bytes"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "dateTime"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "document"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "documentValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "double"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "doubleValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int32"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int32Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int64"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int64Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "javascriptCode"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "javascriptCodeWithScope"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "lowercased"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "maxKey"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "minKey"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "nothing"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "null"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "objectId"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "objectIdValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "regularExpression"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "stringValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "timestamp"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "typeIdentifier"]
+- ["Ps25ExpressibleByFloatLiteral", "array"]
+- ["Ps25ExpressibleByFloatLiteral", "binary"]
+- !private ["Ps25ExpressibleByFloatLiteral", "boolValue"]
+- ["Ps25ExpressibleByFloatLiteral", "boolean"]
+- !private ["Ps25ExpressibleByFloatLiteral", "bytes"]
+- ["Ps25ExpressibleByFloatLiteral", "dateTime"]
+- ["Ps25ExpressibleByFloatLiteral", "document"]
+- !private ["Ps25ExpressibleByFloatLiteral", "documentValue"]
+- ["Ps25ExpressibleByFloatLiteral", "double"]
+- !private ["Ps25ExpressibleByFloatLiteral", "doubleValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "int"]
+- ["Ps25ExpressibleByFloatLiteral", "int32"]
+- !private ["Ps25ExpressibleByFloatLiteral", "int32Value"]
+- ["Ps25ExpressibleByFloatLiteral", "int64"]
+- !private ["Ps25ExpressibleByFloatLiteral", "int64Value"]
+- ["Ps25ExpressibleByFloatLiteral", "javascriptCode"]
+- ["Ps25ExpressibleByFloatLiteral", "javascriptCodeWithScope"]
+- ["Ps25ExpressibleByFloatLiteral", "maxKey"]
+- ["Ps25ExpressibleByFloatLiteral", "minKey"]
+- ["Ps25ExpressibleByFloatLiteral", "nothing"]
+- ["Ps25ExpressibleByFloatLiteral", "null"]
+- ["Ps25ExpressibleByFloatLiteral", "objectId"]
+- !private ["Ps25ExpressibleByFloatLiteral", "objectIdValue"]
+- ["Ps25ExpressibleByFloatLiteral", "regularExpression"]
+- ["Ps25ExpressibleByFloatLiteral", "string"]
+- !private ["Ps25ExpressibleByFloatLiteral", "stringValue"]
+- ["Ps25ExpressibleByFloatLiteral", "timestamp"]
+- !private ["Ps25ExpressibleByFloatLiteral", "typeIdentifier"]
+- ["Ps27ExpressibleByIntegerLiteral", "array"]
+- ["Ps27ExpressibleByIntegerLiteral", "binary"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "boolValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "boolean"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "bytes"]
+- ["Ps27ExpressibleByIntegerLiteral", "dateTime"]
+- ["Ps27ExpressibleByIntegerLiteral", "document"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "documentValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "double"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "doubleValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "int"]
+- ["Ps27ExpressibleByIntegerLiteral", "int32"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "int32Value"]
+- ["Ps27ExpressibleByIntegerLiteral", "int64"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "int64Value"]
+- ["Ps27ExpressibleByIntegerLiteral", "javascriptCode"]
+- ["Ps27ExpressibleByIntegerLiteral", "javascriptCodeWithScope"]
+- ["Ps27ExpressibleByIntegerLiteral", "maxKey"]
+- ["Ps27ExpressibleByIntegerLiteral", "minKey"]
+- ["Ps27ExpressibleByIntegerLiteral", "nothing"]
+- ["Ps27ExpressibleByIntegerLiteral", "null"]
+- ["Ps27ExpressibleByIntegerLiteral", "objectId"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "objectIdValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "regularExpression"]
+- ["Ps27ExpressibleByIntegerLiteral", "string"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "stringValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "timestamp"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "typeIdentifier"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "lowercased"]
+- ["Ps26ExpressibleByStringLiteral", "array"]
+- ["Ps26ExpressibleByStringLiteral", "binary"]
+- !private ["Ps26ExpressibleByStringLiteral", "boolValue"]
+- ["Ps26ExpressibleByStringLiteral", "boolean"]
+- !private ["Ps26ExpressibleByStringLiteral", "bytes"]
+- ["Ps26ExpressibleByStringLiteral", "dateTime"]
+- ["Ps26ExpressibleByStringLiteral", "document"]
+- !private ["Ps26ExpressibleByStringLiteral", "documentValue"]
+- ["Ps26ExpressibleByStringLiteral", "double"]
+- !private ["Ps26ExpressibleByStringLiteral", "doubleValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "int"]
+- ["Ps26ExpressibleByStringLiteral", "int32"]
+- !private ["Ps26ExpressibleByStringLiteral", "int32Value"]
+- ["Ps26ExpressibleByStringLiteral", "int64"]
+- !private ["Ps26ExpressibleByStringLiteral", "int64Value"]
+- ["Ps26ExpressibleByStringLiteral", "javascriptCode"]
+- ["Ps26ExpressibleByStringLiteral", "javascriptCodeWithScope"]
+- !private ["Ps26ExpressibleByStringLiteral", "lowercased"]
+- ["Ps26ExpressibleByStringLiteral", "maxKey"]
+- ["Ps26ExpressibleByStringLiteral", "minKey"]
+- ["Ps26ExpressibleByStringLiteral", "nothing"]
+- ["Ps26ExpressibleByStringLiteral", "null"]
+- ["Ps26ExpressibleByStringLiteral", "objectId"]
+- !private ["Ps26ExpressibleByStringLiteral", "objectIdValue"]
+- ["Ps26ExpressibleByStringLiteral", "regularExpression"]
+- ["Ps26ExpressibleByStringLiteral", "string"]
+- !private ["Ps26ExpressibleByStringLiteral", "stringValue"]
+- ["Ps26ExpressibleByStringLiteral", "timestamp"]
+- !private ["Ps26ExpressibleByStringLiteral", "typeIdentifier"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "array"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "binary"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "boolValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "boolean"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "bytes"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "dateTime"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "document"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "documentValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "double"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "doubleValue"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "int32"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int32Value"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "int64"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int64Value"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "javascriptCode"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "javascriptCodeWithScope"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "lowercased"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "maxKey"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "minKey"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "nothing"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "null"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "objectId"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "objectIdValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "regularExpression"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "stringValue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "timestamp"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "typeIdentifier"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_storage"]
+- !private ["Ps8Hashable", "hexString"]
+- !private ["Ps8Hashable", "lowercased"]
+- !private ["Ps9Indexable", "arrayValue"]
+- !private ["Ps9Indexable", "dictionaryValue"]
+- !private ["Ps9Indexable", "validatesAsArray"]
+- !private ["Ps13IndexableBase", "arrayValue"]
+- !private ["Ps13IndexableBase", "dictionaryValue"]
+- !private ["Ps13IndexableBase", "validatesAsArray"]
+- ["Si", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "lowercased"]
+- !private ["Ps10MirrorPath", "lowercased"]
+- !private ["PSo8NSCoding", "lowercased"]
+- !private ["PSo9NSCopying", "lowercased"]
+- !private ["PSo16NSMutableCopying", "lowercased"]
+- !private ["CSo8NSObject", "lowercased"]
+- !private ["PSo16NSObjectProtocol", "lowercased"]
+- !private ["PSo14NSSecureCoding", "lowercased"]
+- !private ["CSo8NSString", "lowercased"]
+- !private ["V4BSON8ObjectId", "_storage"]
+- ["V4BSON8ObjectId", "deinit"]
+- !private ["V4BSON8ObjectId", "hexString"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps8Sequence", "arrayValue"]
+- !private ["Ps8Sequence", "dictionaryValue"]
+- !private ["Ps8Sequence", "validatesAsArray"]
+- ["SS", "deinit"]
+- !private ["SS", "lowercased"]
+- !private ["Ps16TextOutputStream", "lowercased"]
+- !private ["Ps20TextOutputStreamable", "lowercased"]
+- ["Vs5UInt8", "deinit"]
+- ["O4BSON5Value", "array"]
+- ["O4BSON5Value", "binary"]
+- !private ["O4BSON5Value", "boolValue"]
+- ["O4BSON5Value", "boolean"]
+- !private ["O4BSON5Value", "bytes"]
+- ["O4BSON5Value", "dateTime"]
+- ["O4BSON5Value", "deinit"]
+- ["O4BSON5Value", "document"]
+- !private ["O4BSON5Value", "documentValue"]
+- ["O4BSON5Value", "double"]
+- !private ["O4BSON5Value", "doubleValue"]
+- !private ["O4BSON5Value", "int"]
+- ["O4BSON5Value", "int32"]
+- !private ["O4BSON5Value", "int32Value"]
+- ["O4BSON5Value", "int64"]
+- !private ["O4BSON5Value", "int64Value"]
+- ["O4BSON5Value", "javascriptCode"]
+- ["O4BSON5Value", "javascriptCodeWithScope"]
+- ["O4BSON5Value", "maxKey"]
+- ["O4BSON5Value", "minKey"]
+- ["O4BSON5Value", "nothing"]
+- ["O4BSON5Value", "null"]
+- ["O4BSON5Value", "objectId"]
+- !private ["O4BSON5Value", "objectIdValue"]
+- ["O4BSON5Value", "regularExpression"]
+- ["O4BSON5Value", "string"]
+- !private ["O4BSON5Value", "stringValue"]
+- ["O4BSON5Value", "timestamp"]
+- !private ["O4BSON5Value", "typeIdentifier"]
+- !private ["P4BSON16ValueConvertible", "_getBuiltinLogicValue"]
+- !private ["P4BSON16ValueConvertible", "_storage"]
+- ["P4BSON16ValueConvertible", "array"]
+- !private ["P4BSON16ValueConvertible", "arrayValue"]
+- ["P4BSON16ValueConvertible", "binary"]
+- !private ["P4BSON16ValueConvertible", "boolValue"]
+- ["P4BSON16ValueConvertible", "boolean"]
+- !private ["P4BSON16ValueConvertible", "bytes"]
+- ["P4BSON16ValueConvertible", "dateTime"]
+- !private ["P4BSON16ValueConvertible", "dictionaryValue"]
+- ["P4BSON16ValueConvertible", "document"]
+- !private ["P4BSON16ValueConvertible", "documentValue"]
+- ["P4BSON16ValueConvertible", "double"]
+- !private ["P4BSON16ValueConvertible", "doubleValue"]
+- !private ["P4BSON16ValueConvertible", "hexString"]
+- !private ["P4BSON16ValueConvertible", "int"]
+- ["P4BSON16ValueConvertible", "int32"]
+- !private ["P4BSON16ValueConvertible", "int32Value"]
+- ["P4BSON16ValueConvertible", "int64"]
+- !private ["P4BSON16ValueConvertible", "int64Value"]
+- ["P4BSON16ValueConvertible", "javascriptCode"]
+- ["P4BSON16ValueConvertible", "javascriptCodeWithScope"]
+- !private ["P4BSON16ValueConvertible", "lowercased"]
+- ["P4BSON16ValueConvertible", "maxKey"]
+- ["P4BSON16ValueConvertible", "minKey"]
+- ["P4BSON16ValueConvertible", "nothing"]
+- ["P4BSON16ValueConvertible", "null"]
+- ["P4BSON16ValueConvertible", "objectId"]
+- !private ["P4BSON16ValueConvertible", "objectIdValue"]
+- ["P4BSON16ValueConvertible", "regularExpression"]
+- ["P4BSON16ValueConvertible", "string"]
+- !private ["P4BSON16ValueConvertible", "stringValue"]
+- ["P4BSON16ValueConvertible", "timestamp"]
+- !private ["P4BSON16ValueConvertible", "typeIdentifier"]
+- !private ["P4BSON16ValueConvertible", "validatesAsArray"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "lowercased"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "lowercased"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "lowercased"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "lowercased"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "lowercased"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_storage"]
+- !private ["Ps9_Hashable", "hexString"]
+- !private ["Ps9_Hashable", "lowercased"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "lowercased"]
+- !private ["P4BSON35__DocumentProtocolForArrayAdditions", "arrayValue"]
+- !private ["P4BSON35__DocumentProtocolForArrayAdditions", "dictionaryValue"]
+- !private ["P4BSON35__DocumentProtocolForArrayAdditions", "validatesAsArray"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- "O4BSON13BinarySubtype"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "Vs10Dictionary"
+- "V4BSON8Document"
+- "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "Vs5Int32"
+- "Vs5Int64"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "V4BSON8ObjectId"
+- "Sq"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Vs5UInt8"
+- "O4BSON5Value"
+- "P4BSON16ValueConvertible"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "P4BSON35__DocumentProtocolForArrayAdditions"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "58087bac3ae7378a64e2899c93008c7a"

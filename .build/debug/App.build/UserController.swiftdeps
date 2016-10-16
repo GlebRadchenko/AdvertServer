@@ -1,0 +1,913 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserController"
+provides-nominal:
+- "C3App14UserController"
+provides-member:
+- ["C3App14UserController", ""]
+- ["V10Foundation4Date", ""]
+- ["V10Foundation4Date", "toString"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "encode"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "TimeZone"
+- !private "!="
+- "Date"
+- !private "UserAuthorizedMiddleware"
+- !private "Abort"
+- !private "JSON"
+- !private "DateFormatter"
+- "UserController"
+- !private "Dictionary"
+- !private "Calendar"
+- "String"
+- !private "print"
+- !private "Cookie"
+- !private "APIKey"
+- !private "BooleanLiteralType"
+- "User"
+- !private "debugPrint"
+- "ResponseRepresentable"
+- !private "StringLiteralType"
+- "Droplet"
+- !private "Array"
+- "Request"
+- !private "AuthMiddleware"
+- !private "*"
+depends-member:
+- ["C9Turnstile6APIKey", "deinit"]
+- !private ["C9Turnstile6APIKey", "init"]
+- !private ["O5Vapor5Abort", "badRequest"]
+- !private ["O5Vapor5Abort", "custom"]
+- ["O5Vapor5Abort", "deinit"]
+- !private ["O5Vapor5Abort", "notFound"]
+- !private ["P9Turnstile7Account", "delete"]
+- !private ["P9Turnstile7Account", "find"]
+- !private ["P9Turnstile7Account", "hash"]
+- !private ["P9Turnstile7Account", "id"]
+- !private ["P9Turnstile7Account", "init"]
+- !private ["P9Turnstile7Account", "login"]
+- !private ["P9Turnstile7Account", "makeJSON"]
+- !private ["P9Turnstile7Account", "name"]
+- !private ["P9Turnstile7Account", "query"]
+- !private ["P9Turnstile7Account", "save"]
+- !private ["P9Turnstile7Account", "token"]
+- ["O3App9Algorithm", "deinit"]
+- !private ["O3App9Algorithm", "hs256"]
+- !private ["Ps9AnyObject", "APIKey"]
+- !private ["Ps9AnyObject", "Abort"]
+- !private ["Ps9AnyObject", "AuthMiddleware"]
+- !private ["Ps9AnyObject", "Cookie"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "User"]
+- !private ["Ps9AnyObject", "UserAuthorizedMiddleware"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "addAuth"]
+- !private ["Ps9AnyObject", "addConfigurable"]
+- !private ["Ps9AnyObject", "addRoutes"]
+- !private ["Ps9AnyObject", "addUserProvider"]
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "calendar"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dateFormat"]
+- !private ["Ps9AnyObject", "debugPrint"]
+- !private ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "drop"]
+- !private ["Ps9AnyObject", "edit"]
+- !private ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "find"]
+- !private ["Ps9AnyObject", "first"]
+- !private ["Ps9AnyObject", "grouped"]
+- !private ["Ps9AnyObject", "hash"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "login"]
+- !private ["Ps9AnyObject", "logout"]
+- !private ["Ps9AnyObject", "makeJSON"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "preparations"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "put"]
+- !private ["Ps9AnyObject", "query"]
+- !private ["Ps9AnyObject", "register"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "timeZone"]
+- !private ["Ps9AnyObject", "token"]
+- !private ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "deinit"]
+- !private ["P21MongoCryptoEssentials13ArrayProtocol", "Element"]
+- !private ["C4Auth14AuthMiddleware", "deinit"]
+- !private ["C4Auth14AuthMiddleware", "init"]
+- !private ["P4Auth13Authenticator", "delete"]
+- !private ["P4Auth13Authenticator", "find"]
+- !private ["P4Auth13Authenticator", "hash"]
+- !private ["P4Auth13Authenticator", "id"]
+- !private ["P4Auth13Authenticator", "init"]
+- !private ["P4Auth13Authenticator", "login"]
+- !private ["P4Auth13Authenticator", "makeJSON"]
+- !private ["P4Auth13Authenticator", "name"]
+- !private ["P4Auth13Authenticator", "query"]
+- !private ["P4Auth13Authenticator", "save"]
+- !private ["P4Auth13Authenticator", "token"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["P4HTTP17BodyRepresentable", "data"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["P4Core16BytesConvertible", "data"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core18BytesInitializable", "data"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesRepresentable", "data"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P11CryptoSwift11CSArrayType", "Element"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "calendar"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dateFormat"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "timeZone"]
+- ["V10Foundation8Calendar", "deinit"]
+- !private ["V10Foundation8Calendar", "init"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "Calendar"]
+- !private ["Ps10Comparable", "DateFormatter"]
+- !private ["Ps10Comparable", "TimeZone"]
+- !private ["Ps10Comparable", "addingTimeInterval"]
+- !private ["Ps10Comparable", "data"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "toString"]
+- ["C5Vapor7Content", "deinit"]
+- !private ["C5Vapor7Content", "subscript"]
+- !private ["P4Node7Context", "Element"]
+- !private ["P4Node7Context", "Key"]
+- !private ["P4Node7Context", "Value"]
+- !private ["V7Cookies6Cookie", "deinit"]
+- !private ["V7Cookies6Cookie", "init"]
+- !private ["P5Vapor9Countable", "Element"]
+- !private ["P5Vapor9Countable", "Key"]
+- !private ["P5Vapor9Countable", "Value"]
+- !private ["P5Vapor9Countable", "data"]
+- !private ["P5Vapor9Countable", "init"]
+- !private ["P9Turnstile11Credentials", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Calendar"]
+- !private ["Ps28CustomDebugStringConvertible", "DateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "TimeZone"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "addingTimeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "calendar"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "timeZone"]
+- !private ["Ps28CustomDebugStringConvertible", "toString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Calendar"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "DateFormatter"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "TimeZone"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "addingTimeInterval"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "data"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "toString"]
+- !private ["Ps17CustomReflectable", "Calendar"]
+- !private ["Ps17CustomReflectable", "DateFormatter"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "TimeZone"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "addingTimeInterval"]
+- !private ["Ps17CustomReflectable", "data"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "toString"]
+- !private ["Ps23CustomStringConvertible", "Calendar"]
+- !private ["Ps23CustomStringConvertible", "DateFormatter"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "TimeZone"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addingTimeInterval"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "calendar"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dateFormat"]
+- !private ["Ps23CustomStringConvertible", "hs256"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "timeZone"]
+- !private ["Ps23CustomStringConvertible", "toString"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["V10Foundation4Date", "Calendar"]
+- !private ["V10Foundation4Date", "DateFormatter"]
+- ["V10Foundation4Date", "String"]
+- !private ["V10Foundation4Date", "TimeZone"]
+- !private ["V10Foundation4Date", "addingTimeInterval"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- ["V10Foundation4Date", "toString"]
+- !private ["CSo13DateFormatter", "calendar"]
+- !private ["CSo13DateFormatter", "dateFormat"]
+- ["CSo13DateFormatter", "deinit"]
+- !private ["CSo13DateFormatter", "init"]
+- !private ["CSo13DateFormatter", "string"]
+- !private ["CSo13DateFormatter", "timeZone"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["Sd", "deinit"]
+- !private ["C5Vapor7Droplet", "Value"]
+- !private ["C5Vapor7Droplet", "addConfigurable"]
+- ["C5Vapor7Droplet", "deinit"]
+- !private ["C5Vapor7Droplet", "grouped"]
+- !private ["C5Vapor7Droplet", "preparations"]
+- ["VE10FoundationSS8Encoding", "deinit"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["P6Fluent6Entity", "delete"]
+- !private ["P6Fluent6Entity", "find"]
+- !private ["P6Fluent6Entity", "hash"]
+- !private ["P6Fluent6Entity", "id"]
+- !private ["P6Fluent6Entity", "init"]
+- !private ["P6Fluent6Entity", "login"]
+- !private ["P6Fluent6Entity", "makeJSON"]
+- !private ["P6Fluent6Entity", "name"]
+- !private ["P6Fluent6Entity", "query"]
+- !private ["P6Fluent6Entity", "save"]
+- !private ["P6Fluent6Entity", "token"]
+- !private ["Ps9Equatable", "Calendar"]
+- !private ["Ps9Equatable", "DateFormatter"]
+- !private ["Ps9Equatable", "TimeZone"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addingTimeInterval"]
+- !private ["Ps9Equatable", "badRequest"]
+- !private ["Ps9Equatable", "calendar"]
+- !private ["Ps9Equatable", "conflict"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dateFormat"]
+- !private ["Ps9Equatable", "gregorian"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "timeZone"]
+- !private ["Ps9Equatable", "toString"]
+- !private ["Ps9Equatable", "utf8"]
+- !private ["Ps5Error", "badRequest"]
+- !private ["Ps5Error", "custom"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "notFound"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "Key"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "data"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "data"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P4Core11Extractable", "Key"]
+- ["P4Core11Extractable", "some"]
+- !private ["CSo9Formatter", "calendar"]
+- !private ["CSo9Formatter", "dateFormat"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "string"]
+- !private ["CSo9Formatter", "timeZone"]
+- !private ["Ps8Hashable", "Calendar"]
+- !private ["Ps8Hashable", "DateFormatter"]
+- !private ["Ps8Hashable", "TimeZone"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addingTimeInterval"]
+- !private ["Ps8Hashable", "badRequest"]
+- !private ["Ps8Hashable", "calendar"]
+- !private ["Ps8Hashable", "conflict"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dateFormat"]
+- !private ["Ps8Hashable", "gregorian"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "timeZone"]
+- !private ["Ps8Hashable", "toString"]
+- !private ["Ps8Hashable", "utf8"]
+- ["C4Auth6Helper", "deinit"]
+- !private ["C4Auth6Helper", "login"]
+- !private ["C4Auth6Helper", "logout"]
+- !private ["C4Auth6Helper", "user"]
+- ["OV10Foundation8Calendar10Identifier", "deinit"]
+- !private ["OV10Foundation8Calendar10Identifier", "gregorian"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- ["Si", "deinit"]
+- ["V4JSON4JSON", "deinit"]
+- !private ["V4JSON4JSON", "init"]
+- !private ["P4JSON15JSONConvertible", "init"]
+- !private ["P4JSON17JSONInitializable", "init"]
+- !private ["P4JSON17JSONRepresentable", "delete"]
+- !private ["P4JSON17JSONRepresentable", "find"]
+- !private ["P4JSON17JSONRepresentable", "hash"]
+- !private ["P4JSON17JSONRepresentable", "init"]
+- !private ["P4JSON17JSONRepresentable", "login"]
+- !private ["P4JSON17JSONRepresentable", "makeJSON"]
+- !private ["P4JSON17JSONRepresentable", "name"]
+- !private ["P4JSON17JSONRepresentable", "query"]
+- !private ["P4JSON17JSONRepresentable", "save"]
+- !private ["P4JSON17JSONRepresentable", "token"]
+- !private ["P4HTTP13KeyAccessible", "Key"]
+- !private ["P4HTTP13KeyAccessible", "Value"]
+- !private ["P4Node13KeyAccessible", "Key"]
+- !private ["P4Node13KeyAccessible", "Value"]
+- !private ["P8Settings13KeyAccessible", "Key"]
+- !private ["P8Settings13KeyAccessible", "Value"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "data"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C4HTTP7Message", "auth"]
+- !private ["C4HTTP7Message", "data"]
+- !private ["P4HTTP10Middleware", "deinit"]
+- !private ["P4HTTP10Middleware", "init"]
+- !private ["Ps10MirrorPath", "data"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P5Vapor5Model", "delete"]
+- !private ["P5Vapor5Model", "find"]
+- !private ["P5Vapor5Model", "hash"]
+- !private ["P5Vapor5Model", "init"]
+- !private ["P5Vapor5Model", "login"]
+- !private ["P5Vapor5Model", "makeJSON"]
+- !private ["P5Vapor5Model", "name"]
+- !private ["P5Vapor5Model", "query"]
+- !private ["P5Vapor5Model", "save"]
+- !private ["P5Vapor5Model", "token"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "calendar"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "timeZone"]
+- !private ["PSo9NSCopying", "calendar"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo9NSCopying", "timeZone"]
+- !private ["PSo16NSMutableCopying", "data"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "calendar"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "timeZone"]
+- !private ["PSo16NSObjectProtocol", "calendar"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "timeZone"]
+- !private ["PSo14NSSecureCoding", "data"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "data"]
+- !private ["CSo8NSString", "init"]
+- ["O4Node4Node", "deinit"]
+- !private ["P4Node10NodeBacked", "init"]
+- !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
+- !private ["P4Node15NodeConvertible", "data"]
+- !private ["P4Node15NodeConvertible", "delete"]
+- !private ["P4Node15NodeConvertible", "find"]
+- !private ["P4Node15NodeConvertible", "hash"]
+- !private ["P4Node15NodeConvertible", "id"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "login"]
+- !private ["P4Node15NodeConvertible", "makeJSON"]
+- !private ["P4Node15NodeConvertible", "name"]
+- !private ["P4Node15NodeConvertible", "query"]
+- !private ["P4Node15NodeConvertible", "save"]
+- !private ["P4Node15NodeConvertible", "token"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "data"]
+- !private ["P4Node17NodeInitializable", "delete"]
+- !private ["P4Node17NodeInitializable", "find"]
+- !private ["P4Node17NodeInitializable", "hash"]
+- !private ["P4Node17NodeInitializable", "id"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "login"]
+- !private ["P4Node17NodeInitializable", "makeJSON"]
+- !private ["P4Node17NodeInitializable", "name"]
+- !private ["P4Node17NodeInitializable", "query"]
+- !private ["P4Node17NodeInitializable", "save"]
+- !private ["P4Node17NodeInitializable", "token"]
+- !private ["P4Node17NodeRepresentable", "Value"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "data"]
+- !private ["P4Node17NodeRepresentable", "deinit"]
+- !private ["P4Node17NodeRepresentable", "delete"]
+- !private ["P4Node17NodeRepresentable", "find"]
+- !private ["P4Node17NodeRepresentable", "hash"]
+- !private ["P4Node17NodeRepresentable", "id"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "login"]
+- !private ["P4Node17NodeRepresentable", "makeJSON"]
+- !private ["P4Node17NodeRepresentable", "name"]
+- !private ["P4Node17NodeRepresentable", "query"]
+- !private ["P4Node17NodeRepresentable", "save"]
+- !private ["P4Node17NodeRepresentable", "token"]
+- !private ["Sq", "Key"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["P7Routing19ParametersContainer", "auth"]
+- !private ["P7Routing19ParametersContainer", "data"]
+- !private ["P13PathIndexable9PathIndex", "data"]
+- !private ["P13PathIndexable9PathIndex", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P11Polymorphic11Polymorphic", "_getBuiltinLogicValue"]
+- !private ["P11Polymorphic11Polymorphic", "data"]
+- ["P11Polymorphic11Polymorphic", "deinit"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "string"]
+- !private ["P5Vapor24PolymorphicInitializable", "data"]
+- !private ["P5Vapor24PolymorphicInitializable", "init"]
+- !private ["P6Fluent11Preparation", "delete"]
+- !private ["P6Fluent11Preparation", "find"]
+- !private ["P6Fluent11Preparation", "hash"]
+- !private ["P6Fluent11Preparation", "id"]
+- !private ["P6Fluent11Preparation", "init"]
+- !private ["P6Fluent11Preparation", "login"]
+- !private ["P6Fluent11Preparation", "makeJSON"]
+- !private ["P6Fluent11Preparation", "name"]
+- !private ["P6Fluent11Preparation", "query"]
+- !private ["P6Fluent11Preparation", "save"]
+- !private ["P6Fluent11Preparation", "token"]
+- !private ["C6Fluent5Query", "T"]
+- ["C6Fluent5Query", "deinit"]
+- !private ["C6Fluent5Query", "filter"]
+- !private ["C6Fluent5Query", "first"]
+- !private ["P6Fluent18QueryRepresentable", "T"]
+- !private ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "first"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- !private ["P10Foundation20ReferenceConvertible", "Calendar"]
+- !private ["P10Foundation20ReferenceConvertible", "DateFormatter"]
+- !private ["P10Foundation20ReferenceConvertible", "TimeZone"]
+- !private ["P10Foundation20ReferenceConvertible", "addingTimeInterval"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "toString"]
+- !private ["C4HTTP7Request", "auth"]
+- !private ["C4HTTP7Request", "data"]
+- ["C4HTTP7Request", "deinit"]
+- !private ["P5Vapor23RequestContentSubscript", "data"]
+- !private ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P4HTTP9Responder", "Value"]
+- !private ["P4HTTP9Responder", "addConfigurable"]
+- !private ["P4HTTP9Responder", "grouped"]
+- !private ["P4HTTP9Responder", "preparations"]
+- !private ["P4HTTP21ResponseRepresentable", "data"]
+- !private ["P4HTTP21ResponseRepresentable", "delete"]
+- !private ["P4HTTP21ResponseRepresentable", "find"]
+- !private ["P4HTTP21ResponseRepresentable", "hash"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "login"]
+- !private ["P4HTTP21ResponseRepresentable", "makeJSON"]
+- !private ["P4HTTP21ResponseRepresentable", "name"]
+- !private ["P4HTTP21ResponseRepresentable", "query"]
+- !private ["P4HTTP21ResponseRepresentable", "save"]
+- !private ["P4HTTP21ResponseRepresentable", "token"]
+- !private ["P7Routing12RouteBuilder", "Value"]
+- !private ["P7Routing12RouteBuilder", "addConfigurable"]
+- !private ["P7Routing12RouteBuilder", "grouped"]
+- !private ["P7Routing12RouteBuilder", "post"]
+- !private ["P7Routing12RouteBuilder", "preparations"]
+- !private ["P7Routing12RouteBuilder", "put"]
+- !private ["C7Routing10RouteGroup", "Value"]
+- !private ["C7Routing10RouteGroup", "deinit"]
+- !private ["C7Routing10RouteGroup", "grouped"]
+- !private ["C7Routing10RouteGroup", "post"]
+- !private ["C7Routing10RouteGroup", "put"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["O4HTTP6Status", "badRequest"]
+- !private ["O4HTTP6Status", "conflict"]
+- ["O4HTTP6Status", "deinit"]
+- !private ["SS", "data"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["P15TypeSafeRouting19StringInitializable", "data"]
+- !private ["P15TypeSafeRouting19StringInitializable", "delete"]
+- !private ["P15TypeSafeRouting19StringInitializable", "find"]
+- !private ["P15TypeSafeRouting19StringInitializable", "hash"]
+- !private ["P15TypeSafeRouting19StringInitializable", "init"]
+- !private ["P15TypeSafeRouting19StringInitializable", "login"]
+- !private ["P15TypeSafeRouting19StringInitializable", "makeJSON"]
+- !private ["P15TypeSafeRouting19StringInitializable", "name"]
+- !private ["P15TypeSafeRouting19StringInitializable", "query"]
+- !private ["P15TypeSafeRouting19StringInitializable", "save"]
+- !private ["P15TypeSafeRouting19StringInitializable", "token"]
+- !private ["Ps16TextOutputStream", "data"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "data"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V10Foundation8TimeZone", "init"]
+- !private ["P9Transport15TransferMessage", "auth"]
+- !private ["P9Transport15TransferMessage", "data"]
+- ["C3App4User", "deinit"]
+- !private ["C3App4User", "delete"]
+- !private ["C3App4User", "find"]
+- !private ["C3App4User", "hash"]
+- !private ["C3App4User", "init"]
+- !private ["C3App4User", "login"]
+- !private ["C3App4User", "makeJSON"]
+- !private ["C3App4User", "name"]
+- !private ["C3App4User", "query"]
+- !private ["C3App4User", "save"]
+- !private ["C3App4User", "token"]
+- ["P4Auth4User", "deinit"]
+- !private ["P4Auth4User", "delete"]
+- !private ["P4Auth4User", "find"]
+- !private ["P4Auth4User", "hash"]
+- !private ["P4Auth4User", "id"]
+- !private ["P4Auth4User", "init"]
+- !private ["P4Auth4User", "login"]
+- !private ["P4Auth4User", "makeJSON"]
+- !private ["P4Auth4User", "name"]
+- !private ["P4Auth4User", "query"]
+- !private ["P4Auth4User", "save"]
+- !private ["P4Auth4User", "token"]
+- !private ["C3App24UserAuthorizedMiddleware", "deinit"]
+- !private ["C3App24UserAuthorizedMiddleware", "init"]
+- !private ["C3App14UserController", "APIKey"]
+- !private ["C3App14UserController", "Abort"]
+- !private ["C3App14UserController", "AuthMiddleware"]
+- !private ["C3App14UserController", "Cookie"]
+- !private ["C3App14UserController", "Date"]
+- ["C3App14UserController", "Droplet"]
+- !private ["C3App14UserController", "JSON"]
+- ["C3App14UserController", "Request"]
+- ["C3App14UserController", "ResponseRepresentable"]
+- ["C3App14UserController", "String"]
+- ["C3App14UserController", "User"]
+- !private ["C3App14UserController", "UserAuthorizedMiddleware"]
+- !private ["C3App14UserController", "addAuth"]
+- !private ["C3App14UserController", "addRoutes"]
+- !private ["C3App14UserController", "addUserProvider"]
+- !private ["C3App14UserController", "debugPrint"]
+- ["C3App14UserController", "deinit"]
+- ["C3App14UserController", "drop"]
+- ["C3App14UserController", "edit"]
+- !private ["C3App14UserController", "encode"]
+- ["C3App14UserController", "init"]
+- ["C3App14UserController", "login"]
+- ["C3App14UserController", "logout"]
+- !private ["C3App14UserController", "print"]
+- ["C3App14UserController", "register"]
+- ["C3App14UserController", "setup"]
+- ["C3App14UserController", "token"]
+- !private ["P5Vapor11Validatable", "Element"]
+- !private ["P5Vapor11Validatable", "Key"]
+- !private ["P5Vapor11Validatable", "Value"]
+- !private ["P5Vapor11Validatable", "_getBuiltinLogicValue"]
+- !private ["P5Vapor11Validatable", "data"]
+- !private ["P5Vapor11Validatable", "init"]
+- !private ["P4BSON16ValueConvertible", "Calendar"]
+- !private ["P4BSON16ValueConvertible", "DateFormatter"]
+- !private ["P4BSON16ValueConvertible", "TimeZone"]
+- !private ["P4BSON16ValueConvertible", "_getBuiltinLogicValue"]
+- !private ["P4BSON16ValueConvertible", "addingTimeInterval"]
+- !private ["P4BSON16ValueConvertible", "data"]
+- !private ["P4BSON16ValueConvertible", "init"]
+- !private ["P4BSON16ValueConvertible", "toString"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "data"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Calendar"]
+- !private ["Ps9_Hashable", "DateFormatter"]
+- !private ["Ps9_Hashable", "TimeZone"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addingTimeInterval"]
+- !private ["Ps9_Hashable", "badRequest"]
+- !private ["Ps9_Hashable", "calendar"]
+- !private ["Ps9_Hashable", "conflict"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dateFormat"]
+- !private ["Ps9_Hashable", "gregorian"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "timeZone"]
+- !private ["Ps9_Hashable", "toString"]
+- !private ["Ps9_Hashable", "utf8"]
+- !private ["P10Foundation14_MutableBoxing", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Calendar"]
+- !private ["Ps21_ObjectiveCBridgeable", "DateFormatter"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "TimeZone"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "addingTimeInterval"]
+- !private ["Ps21_ObjectiveCBridgeable", "data"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "toString"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "C9Turnstile6APIKey"
+- "O5Vapor5Abort"
+- !private "P9Turnstile7Account"
+- "O3App9Algorithm"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "P21MongoCryptoEssentials13ArrayProtocol"
+- !private "C4Auth14AuthMiddleware"
+- !private "P4Auth13Authenticator"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "P4HTTP17BodyRepresentable"
+- "Sb"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "P11CryptoSwift11CSArrayType"
+- !private "Ps7CVarArg"
+- "V10Foundation8Calendar"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C5Vapor7Content"
+- !private "P4Node7Context"
+- !private "V7Cookies6Cookie"
+- !private "P5Vapor9Countable"
+- !private "P9Turnstile11Credentials"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "V10Foundation4Date"
+- "CSo13DateFormatter"
+- "Vs10Dictionary"
+- "Sd"
+- "C5Vapor7Droplet"
+- "VE10FoundationSS8Encoding"
+- !private "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P4Core11Extractable"
+- !private "CSo9Formatter"
+- !private "Ps8Hashable"
+- "C4Auth6Helper"
+- "OV10Foundation8Calendar10Identifier"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "V4JSON4JSON"
+- !private "P4JSON15JSONConvertible"
+- !private "P4JSON17JSONInitializable"
+- !private "P4JSON17JSONRepresentable"
+- !private "P4HTTP13KeyAccessible"
+- !private "P4Node13KeyAccessible"
+- !private "P8Settings13KeyAccessible"
+- !private "Ps25LosslessStringConvertible"
+- !private "C4HTTP7Message"
+- !private "P4HTTP10Middleware"
+- !private "Ps10MirrorPath"
+- !private "P5Vapor5Model"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "O4Node4Node"
+- !private "P4Node10NodeBacked"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- "Sq"
+- !private "P7Routing19ParametersContainer"
+- !private "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+- !private "P5Vapor24PolymorphicInitializable"
+- !private "P6Fluent11Preparation"
+- "C6Fluent5Query"
+- !private "P6Fluent18QueryRepresentable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "C4HTTP7Request"
+- !private "P5Vapor23RequestContentSubscript"
+- !private "P4HTTP9Responder"
+- !private "P4HTTP21ResponseRepresentable"
+- !private "P7Routing12RouteBuilder"
+- !private "C7Routing10RouteGroup"
+- !private "Ps8Sequence"
+- "O4HTTP6Status"
+- "SS"
+- !private "P15TypeSafeRouting19StringInitializable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V10Foundation8TimeZone"
+- !private "P9Transport15TransferMessage"
+- "C3App4User"
+- "P4Auth4User"
+- !private "C3App24UserAuthorizedMiddleware"
+- "C3App14UserController"
+- !private "P5Vapor11Validatable"
+- !private "P4BSON16ValueConvertible"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation14_MutableBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Vapor.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Cache.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Fluent.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Node.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/PathIndexable.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Polymorphic.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Cipher.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Core.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/libc.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Console.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/HMAC.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/HTTP.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Transport.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/SocksCore.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/TLS.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/URI.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/HTTPRouting.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Routing.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Hash.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Random.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/JSON.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Jay.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Leaf.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Sessions.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Cookies.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Settings.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/TypeSafeRouting.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/WebSockets.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Auth.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Turnstile.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/TurnstileCrypto.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/BCrypt.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/VaporMongo.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoKitten.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/BSON.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoCryptoEssentials.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoMD5.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoPBKDF2.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoSCRAM.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoSHA1.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Socks.swiftmodule"
+interface-hash: "bcb4a0bfa66cab9c2ecef936f86d9bb7"

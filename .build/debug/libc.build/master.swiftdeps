@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "cf0c1e98ed03053a09002dc87ff48c25"
+build_time: [529942893, 742932000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Core-1.0.0/Sources/libc/libc.swift": [529942709, 0]

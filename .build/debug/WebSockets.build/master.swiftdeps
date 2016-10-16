@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "9136bd4c1e12eb14c42cabc5f69c4743"
+build_time: [529942941, 257869000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Request+WebSockets.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/WebSocketFormatErrors.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Client/WebSocket+Client.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Communication/WebSocket+ControlFrames.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Communication/WebSocket+Send.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Connection/Headers+WebSockets.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Connection/WebSockets+Hash.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Model/Fragmentation.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Model/Frame.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Model/WebSocket+Error.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Model/WebSocket.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Serialization/FrameDeserializer.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Serialization/FrameSerializer.swift": [529942769, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Engine-1.0.3/Sources/WebSockets/Serialization/WebSockets+Flags.swift": [529942769, 0]

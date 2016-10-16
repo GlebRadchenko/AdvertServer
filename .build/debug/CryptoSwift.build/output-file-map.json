@@ -1,0 +1,365 @@
+{
+  "": {
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/master.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/AES.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Array+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Array+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Array+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Array+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Array+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Authenticator.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Authenticator.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Authenticator.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Authenticator~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Authenticator.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Bit.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Bit.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Bit.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Bit~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Bit.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockCipher.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockCipher.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockCipher.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockCipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockCipher.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BytesSequence.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BytesSequence.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BytesSequence.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BytesSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BytesSequence.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/ChaCha20.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Checksum.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Checksum.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Checksum.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Checksum~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Checksum.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Cipher.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cipher.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cipher.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cipher.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Collection+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Collection+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Collection+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Collection+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Collection+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Cryptors.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cryptors.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cryptors.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cryptors~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Cryptors.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/CSArrayType+Extensions.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Extensions.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Extensions.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Extensions.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Digest.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Digest.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Digest.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Digest~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Digest.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/DigestType.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/DigestType.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/DigestType.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/DigestType~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/DigestType.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Generics.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Generics.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Generics.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Generics~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Generics.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/HMAC.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Int+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Int+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Int+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Int+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Int+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/IntegerConvertible.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/IntegerConvertible.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/IntegerConvertible.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/IntegerConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/IntegerConvertible.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/MD5.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/MD5.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/MD5.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/MD5~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/MD5.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/NoPadding.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/NoPadding.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/NoPadding.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/NoPadding~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/NoPadding.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Operators.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Operators.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Operators.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Operators.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Padding.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Padding.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Padding.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Padding~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Padding.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/PKCS7.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS7.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS7.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS7~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS7.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Poly1305.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Poly1305.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Poly1305.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Poly1305~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Poly1305.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Rabbit.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/RandomAccessCryptor.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessCryptor.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessCryptor.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessCryptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessCryptor.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/RandomBytesSequence.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomBytesSequence.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomBytesSequence.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomBytesSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomBytesSequence.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/SecureBytes.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SecureBytes.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SecureBytes.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SecureBytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SecureBytes.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/SHA1.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA1.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA1.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA1~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA1.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/SHA2.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA2.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA2.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA2~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA2.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/SHA3.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA3.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA3.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA3~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/SHA3.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/String+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/UInt16+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt16+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt16+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt16+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt16+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/UInt32+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt32+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt32+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt32+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt32+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/UInt64+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt64+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt64+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt64+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt64+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/UInt8+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt8+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt8+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt8+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/UInt8+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Updatable.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Updatable.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Updatable.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Updatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Updatable.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Utils.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/ZeroPadding.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ZeroPadding.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ZeroPadding.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ZeroPadding~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ZeroPadding.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/BlockMode.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/BlockMode.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockModeOptions.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/BlockModeOptions.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockModeOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockModeOptions.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/BlockModeWorker.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockModeWorker.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/BlockModeWorker.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockModeWorker~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockModeWorker.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/CBC.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CBC.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/CBC.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CBC~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CBC.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/CFB.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CFB.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/CFB.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CFB~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CFB.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/CTR.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CTR.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/CTR.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CTR~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CTR.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/ECB.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ECB.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/ECB.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ECB~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ECB.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/OFB.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/OFB.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/OFB.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/OFB~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/OFB.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/PCBC.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PCBC.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/PCBC.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PCBC~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PCBC.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/BlockMode/RandomAccessBlockModeWorker.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessBlockModeWorker.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/BlockMode/RandomAccessBlockModeWorker.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessBlockModeWorker~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/RandomAccessBlockModeWorker.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/AES+Foundation.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES+Foundation.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/AES+Foundation.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/AES+Foundation.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20+Foundation.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/ChaCha20+Foundation.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/ChaCha20+Foundation.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Foundation.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/CSArrayType+Foundation.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/CSArrayType+Foundation.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/Data+Extension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Data+Extension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/Data+Extension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Data+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Data+Extension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/HMAC+Foundation.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC+Foundation.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/HMAC+Foundation.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/HMAC+Foundation.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit+Foundation.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/Rabbit+Foundation.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Rabbit+Foundation.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+FoundationExtension.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/String+FoundationExtension.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+FoundationExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/String+FoundationExtension.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/Foundation/Utils+Foundation.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils+Foundation.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Foundation/Utils+Foundation.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils+Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/Utils+Foundation.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/PKCS5/PBKDF1.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PBKDF1.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS5/PBKDF1.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PBKDF1~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PBKDF1.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/PKCS5/PBKDF2.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PBKDF2.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS5/PBKDF2.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PBKDF2~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PBKDF2.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/CryptoSwift-0.6.1/Sources/CryptoSwift/PKCS5/PKCS5.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS5.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS5/PKCS5.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS5~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.build/PKCS5.swiftdeps"
+  }
+}

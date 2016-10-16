@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ECBModeWorker"
+provides-nominal:
+- "V11CryptoSwift13ECBModeWorker"
+provides-member:
+- ["V11CryptoSwift13ECBModeWorker", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BlockModeWorker"
+- "ECBModeWorker"
+- "AssignmentPrecedence"
+- "UInt8"
+- "Array"
+- "CipherOperationOnBlock"
+depends-member:
+- ["Sa", "deinit"]
+- ["P11CryptoSwift15BlockModeWorker", "cipherOperation"]
+- ["P11CryptoSwift15BlockModeWorker", "decrypt"]
+- ["P11CryptoSwift15BlockModeWorker", "encrypt"]
+- ["P11CryptoSwift15BlockModeWorker", ""]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps17CustomReflectable", "some"]
+- ["V11CryptoSwift13ECBModeWorker", "Array"]
+- ["V11CryptoSwift13ECBModeWorker", "CipherOperationOnBlock"]
+- ["V11CryptoSwift13ECBModeWorker", "Element"]
+- ["V11CryptoSwift13ECBModeWorker", "UInt8"]
+- ["V11CryptoSwift13ECBModeWorker", "cipherOperation"]
+- ["V11CryptoSwift13ECBModeWorker", "decrypt"]
+- ["V11CryptoSwift13ECBModeWorker", "deinit"]
+- ["V11CryptoSwift13ECBModeWorker", "encrypt"]
+- ["V11CryptoSwift13ECBModeWorker", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+depends-nominal:
+- "Sa"
+- "P11CryptoSwift15BlockModeWorker"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "V11CryptoSwift13ECBModeWorker"
+- "Ps23ExpressibleByNilLiteral"
+- "Sq"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "63eca562fc6bf9b0988607e41cefe312"

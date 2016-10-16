@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "141787fe4553cc97c0a2ef9c2db4d21c"
+build_time: [529942928, 435562000]
+inputs:
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/HMAC/HMAC.swift": [529942706, 0]
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/Crypto-1.0.0/Sources/HMAC/Method.swift": [529942706, 0]

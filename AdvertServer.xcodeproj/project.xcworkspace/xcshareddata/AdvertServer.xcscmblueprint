@@ -7,20 +7,18 @@
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : 9223372036854775807,
     "19278C05F991845F9DC0A319D6F77B1D93D9A83E" : 9223372036854775807,
     "E8FE1BBE3756B992783FCAF37B1DDAFFB3685475" : 9223372036854775807,
-    "C3D8ED1CB28D809ADCE2C0DE74935E8A502ACD53" : 9223372036854775807,
     "6F592973CDAFC6396CA0DD0B7DAC14E5B55161D2" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "656F9EBD-E69B-492A-952B-C212ED758969",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "AdvertServer\/AdvertServer\/Packages\/Jay-1.0.0\/",
-    "19278C05F991845F9DC0A319D6F77B1D93D9A83E" : "AdvertServer\/AdvertServer\/Packages\/VaporMongo-1.0.0\/",
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "AdvertServer\/Packages\/Jay-1.0.0\/",
+    "19278C05F991845F9DC0A319D6F77B1D93D9A83E" : "AdvertServer\/Packages\/VaporMongo-1.0.0\/",
     "E8FE1BBE3756B992783FCAF37B1DDAFFB3685475" : "AdvertServer\/",
-    "C3D8ED1CB28D809ADCE2C0DE74935E8A502ACD53" : "AdvertServer\/AdvertServer\/Packages\/CryptoSwift-0.2.3\/",
-    "6F592973CDAFC6396CA0DD0B7DAC14E5B55161D2" : "AdvertServer\/AdvertServer\/Packages\/MongoKitten-1.7.0\/"
+    "6F592973CDAFC6396CA0DD0B7DAC14E5B55161D2" : "AdvertServer\/Packages\/MongoKitten-1.7.1\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "AdvertServer",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AdvertServer\/AdvertServer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AdvertServer.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/mongo-provider.git",
@@ -36,11 +34,6 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanToml\/Jay.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/krzyzanowskim\/CryptoSwift",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3D8ED1CB28D809ADCE2C0DE74935E8A502ACD53"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GlebRadchenko\/AdvertServer",

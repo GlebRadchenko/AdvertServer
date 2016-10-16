@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "base64encode"
+- "base64decode"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "base64encode"
+- "String"
+- !private "NSData"
+- !private "-"
+- !private "%"
+- "base64decode"
+- !private "StringLiteralType"
+- "Data"
+- "CastingPrecedence"
+- !private "+"
+- "AssignmentPrecedence"
+- !private ">"
+- !private "UnicodeScalarType"
+- !private "NSString"
+depends-member:
+- !private ["Ps9AnyObject", "Base64DecodingOptions"]
+- !private ["Ps9AnyObject", "Base64EncodingOptions"]
+- !private ["Ps9AnyObject", "CompareOptions"]
+- !private ["Ps9AnyObject", "Encoding"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "replacingOccurrences"]
+- ["VCSo6NSData21Base64DecodingOptions", "deinit"]
+- !private ["VCSo6NSData21Base64DecodingOptions", "init"]
+- ["VCSo6NSData21Base64EncodingOptions", "deinit"]
+- !private ["VCSo6NSData21Base64EncodingOptions", "init"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "base64EncodedData"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "base64EncodedData"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "Encoding"]
+- !private ["P4HTTP17BodyRepresentable", "characters"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "replacingOccurrences"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["P4Core16BytesConvertible", "Encoding"]
+- !private ["P4Core16BytesConvertible", "base64EncodedData"]
+- !private ["P4Core16BytesConvertible", "characters"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core16BytesConvertible", "replacingOccurrences"]
+- !private ["P4Core18BytesInitializable", "Encoding"]
+- !private ["P4Core18BytesInitializable", "base64EncodedData"]
+- !private ["P4Core18BytesInitializable", "characters"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesInitializable", "replacingOccurrences"]
+- !private ["P4Core18BytesRepresentable", "Encoding"]
+- !private ["P4Core18BytesRepresentable", "base64EncodedData"]
+- !private ["P4Core18BytesRepresentable", "characters"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Core18BytesRepresentable", "replacingOccurrences"]
+- !private ["Ps7CVarArg", "Base64DecodingOptions"]
+- !private ["Ps7CVarArg", "Base64EncodingOptions"]
+- !private ["Ps7CVarArg", "CompareOptions"]
+- !private ["Ps7CVarArg", "Encoding"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "replacingOccurrences"]
+- !private ["VSS13CharacterView", "IndexDistance"]
+- !private ["VSS13CharacterView", "count"]
+- ["VSS13CharacterView", "deinit"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "base64EncodedData"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "replacingOccurrences"]
+- ["VCSo8NSString14CompareOptions", "deinit"]
+- !private ["VCSo8NSString14CompareOptions", "init"]
+- !private ["P5Vapor9Countable", "Encoding"]
+- !private ["P5Vapor9Countable", "characters"]
+- !private ["P5Vapor9Countable", "init"]
+- !private ["P5Vapor9Countable", "replacingOccurrences"]
+- !private ["Ps28CustomDebugStringConvertible", "Base64DecodingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "Base64EncodingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "CompareOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "Encoding"]
+- !private ["Ps28CustomDebugStringConvertible", "base64EncodedData"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "replacingOccurrences"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CompareOptions"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "replacingOccurrences"]
+- !private ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "base64EncodedData"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "replacingOccurrences"]
+- !private ["Ps23CustomStringConvertible", "Base64DecodingOptions"]
+- !private ["Ps23CustomStringConvertible", "Base64EncodingOptions"]
+- !private ["Ps23CustomStringConvertible", "CompareOptions"]
+- !private ["Ps23CustomStringConvertible", "Encoding"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "base64EncodedData"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "replacingOccurrences"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["V10Foundation4Data", "base64EncodedData"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["V10Foundation4Data", "init"]
+- ["VE10FoundationSS8Encoding", "deinit"]
+- !private ["VE10FoundationSS8Encoding", "rawValue"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["Ps9Equatable", "Base64DecodingOptions"]
+- !private ["Ps9Equatable", "Base64EncodingOptions"]
+- !private ["Ps9Equatable", "CompareOptions"]
+- !private ["Ps9Equatable", "Encoding"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "base64EncodedData"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "replacingOccurrences"]
+- !private ["Ps9Equatable", "utf8"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "CompareOptions"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "replacingOccurrences"]
+- !private ["Ps32ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps32ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "replacingOccurrences"]
+- !private ["Ps26ExpressibleByStringLiteral", "CompareOptions"]
+- !private ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "replacingOccurrences"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "CompareOptions"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "replacingOccurrences"]
+- !private ["Ps8Hashable", "Base64DecodingOptions"]
+- !private ["Ps8Hashable", "Base64EncodingOptions"]
+- !private ["Ps8Hashable", "CompareOptions"]
+- !private ["Ps8Hashable", "Encoding"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "base64EncodedData"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "replacingOccurrences"]
+- !private ["Ps8Hashable", "utf8"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "base64EncodedData"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "base64EncodedData"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "init"]
+- ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "replacingOccurrences"]
+- !private ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "replacingOccurrences"]
+- !private ["Ps17MutableCollection", "base64EncodedData"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "base64EncodedData"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["PSo8NSCoding", "Base64DecodingOptions"]
+- !private ["PSo8NSCoding", "Base64EncodingOptions"]
+- !private ["PSo8NSCoding", "CompareOptions"]
+- !private ["PSo8NSCoding", "Encoding"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "replacingOccurrences"]
+- !private ["PSo9NSCopying", "Base64DecodingOptions"]
+- !private ["PSo9NSCopying", "Base64EncodingOptions"]
+- !private ["PSo9NSCopying", "CompareOptions"]
+- !private ["PSo9NSCopying", "Encoding"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "replacingOccurrences"]
+- !private ["CSo6NSData", "Base64DecodingOptions"]
+- !private ["CSo6NSData", "Base64EncodingOptions"]
+- !private ["PSo16NSMutableCopying", "Base64DecodingOptions"]
+- !private ["PSo16NSMutableCopying", "Base64EncodingOptions"]
+- !private ["PSo16NSMutableCopying", "CompareOptions"]
+- !private ["PSo16NSMutableCopying", "Encoding"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "replacingOccurrences"]
+- !private ["CSo8NSObject", "Base64DecodingOptions"]
+- !private ["CSo8NSObject", "Base64EncodingOptions"]
+- !private ["CSo8NSObject", "CompareOptions"]
+- !private ["CSo8NSObject", "Encoding"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "replacingOccurrences"]
+- !private ["PSo16NSObjectProtocol", "Base64DecodingOptions"]
+- !private ["PSo16NSObjectProtocol", "Base64EncodingOptions"]
+- !private ["PSo16NSObjectProtocol", "CompareOptions"]
+- !private ["PSo16NSObjectProtocol", "Encoding"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "replacingOccurrences"]
+- !private ["PSo14NSSecureCoding", "Base64DecodingOptions"]
+- !private ["PSo14NSSecureCoding", "Base64EncodingOptions"]
+- !private ["PSo14NSSecureCoding", "CompareOptions"]
+- !private ["PSo14NSSecureCoding", "Encoding"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "replacingOccurrences"]
+- !private ["CSo8NSString", "CompareOptions"]
+- !private ["CSo8NSString", "Encoding"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "replacingOccurrences"]
+- !private ["P4Node15NodeConvertible", "Encoding"]
+- !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
+- !private ["P4Node15NodeConvertible", "characters"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "replacingOccurrences"]
+- !private ["P4Node17NodeInitializable", "Encoding"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "characters"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "replacingOccurrences"]
+- !private ["P4Node17NodeRepresentable", "Encoding"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "characters"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "replacingOccurrences"]
+- !private ["Ps9OptionSet", "init"]
+- ["Sq", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "Encoding"]
+- !private ["P13PathIndexable9PathIndex", "characters"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable9PathIndex", "replacingOccurrences"]
+- !private ["P11Polymorphic11Polymorphic", "Encoding"]
+- !private ["P11Polymorphic11Polymorphic", "_getBuiltinLogicValue"]
+- !private ["P11Polymorphic11Polymorphic", "characters"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "replacingOccurrences"]
+- !private ["P5Vapor24PolymorphicInitializable", "Encoding"]
+- !private ["P5Vapor24PolymorphicInitializable", "characters"]
+- !private ["P5Vapor24PolymorphicInitializable", "init"]
+- !private ["P5Vapor24PolymorphicInitializable", "replacingOccurrences"]
+- !private ["Ps22RandomAccessCollection", "base64EncodedData"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "base64EncodedData"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "base64EncodedData"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "base64EncodedData"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- !private ["P10Foundation20ReferenceConvertible", "base64EncodedData"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P5Vapor23RequestContentSubscript", "Encoding"]
+- !private ["P5Vapor23RequestContentSubscript", "characters"]
+- !private ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P5Vapor23RequestContentSubscript", "replacingOccurrences"]
+- !private ["P4HTTP21ResponseRepresentable", "Encoding"]
+- !private ["P4HTTP21ResponseRepresentable", "characters"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "replacingOccurrences"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "base64EncodedData"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "characters"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["P15TypeSafeRouting19StringInitializable", "Encoding"]
+- !private ["P15TypeSafeRouting19StringInitializable", "characters"]
+- !private ["P15TypeSafeRouting19StringInitializable", "init"]
+- !private ["P15TypeSafeRouting19StringInitializable", "replacingOccurrences"]
+- !private ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "replacingOccurrences"]
+- !private ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "replacingOccurrences"]
+- ["Su", "deinit"]
+- !private ["P5Vapor11Validatable", "Encoding"]
+- !private ["P5Vapor11Validatable", "_getBuiltinLogicValue"]
+- !private ["P5Vapor11Validatable", "characters"]
+- !private ["P5Vapor11Validatable", "init"]
+- !private ["P5Vapor11Validatable", "replacingOccurrences"]
+- !private ["P4BSON16ValueConvertible", "Encoding"]
+- !private ["P4BSON16ValueConvertible", "_getBuiltinLogicValue"]
+- !private ["P4BSON16ValueConvertible", "characters"]
+- !private ["P4BSON16ValueConvertible", "init"]
+- !private ["P4BSON16ValueConvertible", "replacingOccurrences"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "replacingOccurrences"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "replacingOccurrences"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "replacingOccurrences"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "replacingOccurrences"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Base64DecodingOptions"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Base64EncodingOptions"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "CompareOptions"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Encoding"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "replacingOccurrences"]
+- !private ["Ps9_Hashable", "Base64DecodingOptions"]
+- !private ["Ps9_Hashable", "Base64EncodingOptions"]
+- !private ["Ps9_Hashable", "CompareOptions"]
+- !private ["Ps9_Hashable", "Encoding"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "base64EncodedData"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "replacingOccurrences"]
+- !private ["Ps9_Hashable", "utf8"]
+- !private ["P10Foundation18_MutablePairBoxing", "base64EncodedData"]
+- !private ["P10Foundation18_MutablePairBoxing", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "base64EncodedData"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "replacingOccurrences"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "VCSo6NSData21Base64DecodingOptions"
+- "VCSo6NSData21Base64EncodingOptions"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "P4HTTP17BodyRepresentable"
+- "Sb"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "Ps7CVarArg"
+- "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "VCSo8NSString14CompareOptions"
+- !private "P5Vapor9Countable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "VE10FoundationSS8Encoding"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "P13PathIndexable9PathIndex"
+- !private "P11Polymorphic11Polymorphic"
+- !private "P5Vapor24PolymorphicInitializable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P5Vapor23RequestContentSubscript"
+- !private "P4HTTP21ResponseRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "P15TypeSafeRouting19StringInitializable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- !private "P5Vapor11Validatable"
+- !private "P4BSON16ValueConvertible"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation18_MutablePairBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Vapor.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Cache.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Fluent.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Node.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/PathIndexable.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Polymorphic.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Cipher.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/glebradchenko/Desktop/AdvertServer/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Core.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/libc.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Essentials.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Console.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/HMAC.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/HTTP.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Transport.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/SocksCore.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/TLS.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/URI.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/HTTPRouting.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Routing.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Hash.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Random.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/JSON.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Jay.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Leaf.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Sessions.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Cookies.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Settings.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/TypeSafeRouting.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/WebSockets.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Auth.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Turnstile.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/TurnstileCrypto.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/BCrypt.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/CryptoSwift.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/VaporMongo.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/FluentMongo.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoKitten.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/BSON.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoCryptoEssentials.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoMD5.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoPBKDF2.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoSCRAM.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoSHA1.swiftmodule"
+- "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/Socks.swiftmodule"
+interface-hash: "37cc8cd117ad4798dd834c937b82f3a5"

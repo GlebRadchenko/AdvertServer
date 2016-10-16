@@ -1,0 +1,118 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PCBC"
+provides-nominal:
+- "C21MongoCryptoEssentials4PCBC"
+provides-member:
+- ["C21MongoCryptoEssentials4PCBC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyIterator"
+- "InputBlockType"
+- "Array"
+- "BlockModeOptions"
+- "CipherBlockOperation"
+- !private "xor"
+- "PCBC"
+- "BlockMode"
+- "UInt8"
+- !private "??"
+- !private "AssignmentPrecedence"
+depends-member:
+- ["Vs11AnyIterator", "deinit"]
+- !private ["Vs11AnyIterator", "init"]
+- !private ["Vs11AnyIterator", "next"]
+- !private ["Ps9AnyObject", "AnyIterator"]
+- ["Ps9AnyObject", "InputBlockType"]
+- ["Ps9AnyObject", "blockType"]
+- ["Ps9AnyObject", "makeDecryptionIterator"]
+- ["Ps9AnyObject", "makeEncryptionIterator"]
+- ["Ps9AnyObject", "options"]
+- !private ["Ps9AnyObject", "xor"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["P21MongoCryptoEssentials9BlockMode", "AnyIterator"]
+- ["P21MongoCryptoEssentials9BlockMode", "InputBlockType"]
+- ["P21MongoCryptoEssentials9BlockMode", "blockType"]
+- ["P21MongoCryptoEssentials9BlockMode", "makeDecryptionIterator"]
+- ["P21MongoCryptoEssentials9BlockMode", "makeEncryptionIterator"]
+- ["P21MongoCryptoEssentials9BlockMode", "options"]
+- !private ["P21MongoCryptoEssentials9BlockMode", "xor"]
+- ["P21MongoCryptoEssentials9BlockMode", ""]
+- ["V21MongoCryptoEssentials16BlockModeOptions", "Element"]
+- ["V21MongoCryptoEssentials16BlockModeOptions", "deinit"]
+- ["V21MongoCryptoEssentials16BlockModeOptions", "initializationVectorRequired"]
+- ["V21MongoCryptoEssentials16BlockModeOptions", "paddingRequired"]
+- !private ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps17CustomReflectable", "some"]
+- ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "decrypt"]
+- ["Ps9Equatable", "initializationVectorRequired"]
+- ["Ps9Equatable", "paddingRequired"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps25ExpressibleByArrayLiteral", "initializationVectorRequired"]
+- ["Ps25ExpressibleByArrayLiteral", "paddingRequired"]
+- !private ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Ps8Hashable", "decrypt"]
+- ["O21MongoCryptoEssentials14InputBlockType", "decrypt"]
+- ["O21MongoCryptoEssentials14InputBlockType", "deinit"]
+- !private ["Ps16IteratorProtocol", "init"]
+- !private ["Ps16IteratorProtocol", "next"]
+- ["Ps9OptionSet", "Element"]
+- ["Ps9OptionSet", "initializationVectorRequired"]
+- ["Ps9OptionSet", "paddingRequired"]
+- ["Sq", "deinit"]
+- !private ["Sq", "some"]
+- ["C21MongoCryptoEssentials4PCBC", "AnyIterator"]
+- ["C21MongoCryptoEssentials4PCBC", "BlockModeOptions"]
+- ["C21MongoCryptoEssentials4PCBC", "CipherBlockOperation"]
+- ["C21MongoCryptoEssentials4PCBC", "InputBlockType"]
+- ["C21MongoCryptoEssentials4PCBC", "UInt8"]
+- ["C21MongoCryptoEssentials4PCBC", "blockType"]
+- ["C21MongoCryptoEssentials4PCBC", "deinit"]
+- ["C21MongoCryptoEssentials4PCBC", "init"]
+- ["C21MongoCryptoEssentials4PCBC", "makeDecryptionIterator"]
+- ["C21MongoCryptoEssentials4PCBC", "makeEncryptionIterator"]
+- ["C21MongoCryptoEssentials4PCBC", "options"]
+- !private ["C21MongoCryptoEssentials4PCBC", "xor"]
+- ["Ps16RawRepresentable", "Element"]
+- ["Ps16RawRepresentable", "initializationVectorRequired"]
+- ["Ps16RawRepresentable", "paddingRequired"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "next"]
+- ["Ps10SetAlgebra", "Element"]
+- ["Ps10SetAlgebra", "initializationVectorRequired"]
+- ["Ps10SetAlgebra", "paddingRequired"]
+- ["Ps9_Hashable", "decrypt"]
+depends-nominal:
+- "Vs11AnyIterator"
+- "Ps9AnyObject"
+- !private "Sa"
+- "P21MongoCryptoEssentials9BlockMode"
+- "V21MongoCryptoEssentials16BlockModeOptions"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- "O21MongoCryptoEssentials14InputBlockType"
+- !private "Ps16IteratorProtocol"
+- "Ps9OptionSet"
+- "Sq"
+- "C21MongoCryptoEssentials4PCBC"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "3f4a75f6734e36818888004214577951"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.build/master.swiftdeps"
+  },
+  "/Users/glebradchenko/Desktop/AdvertServer/Packages/MongoKitten-1.7.1/Sources/MongoHMAC/HMAC.swift": {
+    "dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.build/HMAC.d",
+    "object": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.build/HMAC.swift.o",
+    "swiftmodule": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/glebradchenko/Desktop/AdvertServer/.build/debug/MongoHMAC.build/HMAC.swiftdeps"
+  }
+}
