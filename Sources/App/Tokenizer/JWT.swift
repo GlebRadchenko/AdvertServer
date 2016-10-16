@@ -81,7 +81,7 @@ public func encode(_ payload:Payload, algorithm:Algorithm) -> String {
     return nil
   }
 
-  let header = encodeJSON(["typ": "JWT" as AnyObject, "alg": algorithm.description as AnyObject])!
+  let header = encodeJSON(["typ": "JWT" as AnyObject, "alg": algorithm.description as! AnyObject])!
   let payload = encodeJSON(payload)!
   let signingInput = "\(header).\(payload)"
   let signature = algorithm.sign(signingInput)
@@ -96,7 +96,7 @@ open class PayloadBuilder {
       return payload["iss"] as? String
     }
     set {
-      payload["iss"] = newValue as AnyObject?
+      payload["iss"] = newValue as! AnyObject?
     }
   }
 
@@ -105,7 +105,7 @@ open class PayloadBuilder {
       return payload["aud"] as? String
     }
     set {
-      payload["aud"] = newValue as AnyObject?
+      payload["aud"] = newValue as! AnyObject?
     }
   }
 
@@ -118,7 +118,7 @@ open class PayloadBuilder {
       return nil
     }
     set {
-      payload["exp"] = newValue?.timeIntervalSince1970 as AnyObject?
+      payload["exp"] = newValue?.timeIntervalSince1970 as! AnyObject?
     }
   }
 
@@ -131,7 +131,7 @@ open class PayloadBuilder {
       return nil
     }
     set {
-      payload["nbf"] = newValue?.timeIntervalSince1970 as AnyObject?
+      payload["nbf"] = newValue?.timeIntervalSince1970 as! AnyObject?
     }
   }
 
@@ -144,7 +144,7 @@ open class PayloadBuilder {
       return nil
     }
     set {
-      payload["iat"] = newValue?.timeIntervalSince1970 as AnyObject?
+      payload["iat"] = newValue?.timeIntervalSince1970 as! AnyObject?
     }
   }
 
