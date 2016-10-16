@@ -51,7 +51,11 @@ class UserController {
         let userGroup = drop.grouped("users")
         userGroup.post(handler: register)
         userGroup.post("login", handler: login)
-        userGroup.post("logout", handler: logout)
+        
+        let authMiddleware = UserAuthorizedMiddleware()
+        let tokenGroup = userGroup.grouped(authMiddleware)
+        tokenGroup.post("logout", handler: logout)
+        tokenGroup.put(handler: edit)
         //TODO: Edit user, delete user
     }
     func register(_ req: Request) throws -> ResponseRepresentable {
@@ -68,6 +72,37 @@ class UserController {
         try user.save()
         return try user.makeJSON()
     }
+    func edit(_ req: Request) throws -> ResponseRepresentable {
+        guard let token = req.auth.header?.bearer else {
+            throw Abort.badRequest
+        }
+        try req.auth.login(token)
+        if let user = try req.auth.user() as? User {
+            var newUser = User(user: user)
+            var isChanged = false
+            if let newName = req.data["name"]?.string {
+                newUser.name = newName
+                isChanged = true
+            }
+            if let newLogin = req.data["login"]?.string {
+                if (try User.query().filter("login", newLogin).first()) != nil {
+                    throw Abort.custom(status: .badRequest, message: "Such login already exist")
+                }
+                newUser.login = newLogin
+                isChanged = true
+            }
+            if isChanged {
+                newUser.token = user.token
+                try user.delete()
+                try newUser.save()
+                return try newUser.makeJSON()
+            }
+            throw Abort.custom(status: .badRequest, message: "No parameters")
+        }
+        throw Abort.custom(status: .badRequest, message: "Invalid credentials")
+    }
+//    func changePassword(_ req: Request) throws -> ResponseRepresentable {
+//    }
     func login(_ req: Request) throws -> ResponseRepresentable {
         guard let login = req.data["login"]?.string,
             let password = req.data["password"]?.string else {
