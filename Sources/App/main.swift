@@ -14,10 +14,14 @@ drop.get { req in
     	"message": drop.localization[req.lang, "welcome", "title"]
     ])
 }
-print(encode(["start": "asdasd",
-              "end": "ASDASD"], algorithm: .hs256("asfasf".data(using: .utf8)!)))
 //MARK: - Adding User routing
 let userController = UserController(drop: drop)
 userController.setup()
+
+let requestManager = RequestManager()
+requestManager.sendAsynchronous(request: ApplicationAction.fullInfo(id: "694609161")) { (data, error) in
+    JsonParser.appInfo(from: data)
+    print(error)
+}
 
 drop.run()

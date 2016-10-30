@@ -110,29 +110,19 @@ class UserController {
         let creds = APIKey(id: login,
                            secret: password)
         try req.auth.login(creds)
-        print("login4")
         guard let id = try req.auth.user().id,
             let user = try User.find(id) else {
-                print("login5")
                 throw Abort.notFound
         }
-        print("login6")
         var newUser = User(user: user)
-        print("login7")
         newUser.token = self.token(for: user)
-        print("login8")
         do {
-            print("login9")
             try user.delete()
-            print("login10")
             try newUser.save()
-            print("logi11")
         } catch {
             print(error)
         }
-        print("login12")
         let node = ["message": "Logged in", "access_token" : newUser.token]
-        print("login13")
         return try JSON(node: node)
     }
     func logout(_ req: Request) throws -> ResponseRepresentable {
