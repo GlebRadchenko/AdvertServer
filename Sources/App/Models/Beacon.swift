@@ -15,7 +15,7 @@ final class Beacon: Model {
     var udid: String
     var major: String
     var minor: String
-    var parent: User?
+    var parentId: Node?
     
     var exists: Bool = false
     
@@ -30,7 +30,7 @@ final class Beacon: Model {
         udid = try node.extract("udid")
         major = try node.extract("major")
         minor = try node.extract("minor")
-        parent = try node.extract("parent")
+        parentId = try node.extract("parentId")
     }
     
     func makeNode(context: Context) throws -> Node {
@@ -39,7 +39,7 @@ final class Beacon: Model {
             "udid": udid,
             "major": major,
             "minor": minor,
-            "parent": parent
+            "parentId": parentId
             ])
     }
     static func prepare(_ database: Database) throws {
@@ -48,7 +48,7 @@ final class Beacon: Model {
             beacons.string("udid")
             beacons.string("major")
             beacons.string("minor")
-            beacons.parent(User.self, optional: false)
+            beacons.id("parentId", optional: false)
         }
     }
     
@@ -58,6 +58,6 @@ final class Beacon: Model {
 }
 extension Beacon {
     func owner() throws -> Parent<User> {
-        return try parent(parent?.id)
+        return try parent(parentId)
     }
 }

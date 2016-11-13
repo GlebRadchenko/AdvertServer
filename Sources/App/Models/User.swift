@@ -59,13 +59,8 @@ final class User: Model {
     }
 }
 extension User {
-    func beacons() throws -> [Beacon]{
-        let beacons = try Beacon.query()
-            .all()
-            .filter { (beacon) -> Bool in
-                return beacon.parent?.id == self.id
-        }
-        return beacons
+    func beacons() throws -> Children<Beacon> {
+        return children("parentId", Beacon.self)
     }
 }
 

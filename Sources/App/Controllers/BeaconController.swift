@@ -47,8 +47,7 @@ class BeaconController: DropConfigurable {
         //receive user with creds
         if let user = try req.auth.user() as? User {
             do {
-                //this is not native method
-                let beaconNodes = try user.beacons()
+                let beaconNodes = try user.beacons().all()
                     .map () { (beacon) in
                         return try beacon.makeNode()
                 }
@@ -76,15 +75,8 @@ class BeaconController: DropConfigurable {
                 throw Abort.custom(status: .conflict, message: "Such beacon already exist")
             } else {
                 var newBeacon = Beacon(udid: udid, major: major, minor: minor)
-                newBeacon.parent = user as? User
+                newBeacon.parentId = user.id
                 try newBeacon.save()
-                try user.save()
-                
-                //this is for checking
-                if let savedUser = try newBeacon.owner().get() {
-                    print(savedUser.id == user.id)
-                }
-                //
                 return try JSON(node: [["error": false,
                                         "message": "Created"],
                                        try newBeacon.makeNode()] )
