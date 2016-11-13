@@ -47,7 +47,8 @@ class BeaconController: DropConfigurable {
         //receive user with creds
         if let user = try req.auth.user() as? User {
             do {
-                let beaconNodes = try user.beacons().all()
+                let beaconNodes = try user.beacons()
+                    .all()
                     .map () { (beacon) in
                         return try beacon.makeNode()
                 }
@@ -86,64 +87,6 @@ class BeaconController: DropConfigurable {
         }
     }
     func edit(_ req: Request) throws -> ResponseRepresentable {
-        if var user = try req.auth.user() as? User {
-            var isChanged = false
-            if let newName = req.data["name"]?.string {
-                user.name = newName
-                isChanged = true
-            }
-            if let newLogin = req.data["login"]?.string {
-                if (try User.query().filter("login", newLogin).first()) != nil {
-                    throw Abort.custom(status: .badRequest, message: "Such login already exist")
-                }
-                user.login = newLogin
-                isChanged = true
-            }
-            if isChanged {
-                try user.save()
-                return try user.makeJSON()
-            }
-            throw Abort.custom(status: .badRequest, message: "No parameters")
-        }
-        throw Abort.custom(status: .badRequest, message: "Invalid credentials")
-    }
-    func login(_ req: Request) throws -> ResponseRepresentable {
-        guard let login = req.data["login"]?.string,
-            let password = req.data["password"]?.string else {
-                throw Abort.badRequest
-        }
-        let creds = APIKey(id: login,
-                           secret: password)
-        try req.auth.login(creds)
-        guard let id = try req.auth.user().id,
-            var user = try User.find(id) else {
-                throw Abort.notFound
-        }
-        do {
-            try user.save()
-        } catch {
-            print(error)
-        }
-        let node = ["message": "Logged in", "access_token" : user.token]
-        return try JSON(node: node)
-    }
-    func logout(_ req: Request) throws -> ResponseRepresentable {
-        if var user = try req.auth.user() as? User {
-            do {
-                user.token = ""
-                try user.save()
-            } catch {
-                print(error)
-            }
-            do {
-                
-                try req.auth.logout()
-            } catch {
-                print(error)
-            }
-            return try JSON(node: ["error": false,
-                                   "message": "Logout successed"])
-        }
-        throw Abort.badRequest
+        throw Abort.custom(status: .badRequest, message: "Not implemented")
     }
 }
