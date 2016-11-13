@@ -13,12 +13,17 @@ import Cookies
 import BCrypt
 import HTTP
 
-class UserController {
+protocol DropConfigurable: class {
+    init(with drop: Droplet)
+    func setup()
+}
+
+class UserController: DropConfigurable {
     weak var drop: Droplet?
-    init(drop: Droplet) {
-        debugPrint("initializing UserController")
+    required init(with drop: Droplet) {
         self.drop = drop
     }
+    
     func setup() {
         guard drop != nil else {
             debugPrint("no droplet in usercontroller")
@@ -41,7 +46,10 @@ class UserController {
         drop?.addConfigurable(middleware: auth, name: "auth")
     }
     private func addUserProvider() {
-        drop?.preparations = [User.self]
+        guard let drop = drop else {
+            return
+        }
+        drop.preparations.append(User.self)
     }
     private func addRoutes() {
         guard let drop = drop else {
@@ -54,9 +62,19 @@ class UserController {
         
         let authMiddleware = UserAuthorizedMiddleware()
         let tokenGroup = userGroup.grouped(authMiddleware)
+        tokenGroup.get(handler: userInfo)
         tokenGroup.post("logout", handler: logout)
         tokenGroup.put(handler: edit)
-        //TODO: Edit user, delete user
+    }
+    func userInfo(_ req: Request) throws -> ResponseRepresentable {
+        if let user = try req.auth.user() as? User {
+            do {
+                return try user.makeJSON()
+            } catch {
+                throw Abort.custom(status: .badRequest, message: error.localizedDescription)
+            }
+        }
+        throw Abort.custom(status: .badRequest, message: "Invalid credentials")
     }
     func register(_ req: Request) throws -> ResponseRepresentable {
         guard let name = req.data["name"]?.string,
@@ -73,57 +91,48 @@ class UserController {
         return try user.makeJSON()
     }
     func edit(_ req: Request) throws -> ResponseRepresentable {
-        if let user = try req.auth.user() as? User {
-            var newUser = User(user: user)
+        if var user = try req.auth.user() as? User {
             var isChanged = false
             if let newName = req.data["name"]?.string {
-                newUser.name = newName
+                user.name = newName
                 isChanged = true
             }
             if let newLogin = req.data["login"]?.string {
                 if (try User.query().filter("login", newLogin).first()) != nil {
                     throw Abort.custom(status: .badRequest, message: "Such login already exist")
                 }
-                newUser.login = newLogin
+                user.login = newLogin
                 isChanged = true
             }
             if isChanged {
-                newUser.token = user.token
-                try user.delete()
-                try newUser.save()
-                return try newUser.makeJSON()
+                try user.save()
+                return try user.makeJSON()
             }
             throw Abort.custom(status: .badRequest, message: "No parameters")
         }
         throw Abort.custom(status: .badRequest, message: "Invalid credentials")
     }
-//    func changePassword(_ req: Request) throws -> ResponseRepresentable {
-//    }
     func login(_ req: Request) throws -> ResponseRepresentable {
-        print("login1")
         guard let login = req.data["login"]?.string,
             let password = req.data["password"]?.string else {
-                print("login2")
                 throw Abort.badRequest
         }
-        print("login3")
+        print(login, password)
         let creds = APIKey(id: login,
                            secret: password)
-        try req.auth.login(creds)
-        guard let id = try req.auth.user().id,
-            let user = try User.find(id) else {
-                throw Abort.notFound
-        }
-        var newUser = User(user: user)
-        newUser.token = self.token(for: user)
         do {
-            try user.delete()
-            try newUser.save()
+            try req.auth.login(creds)
+            guard let id = try req.auth.user().id,
+                var user = try User.find(id) else {
+                    throw Abort.notFound
+            }
+            user.token = self.token(for: user)
+            try user.save()
+            let node = ["message": "Logged in", "access_token" : user.token]
+            return try JSON(node: node)
         } catch {
-            print(error)
+            throw Abort.custom(status: .badRequest, message: "Invalid data")
         }
-        let node = ["message": "Logged in", "access_token" : newUser.token]
-        return try JSON(node: node)
     }
     func logout(_ req: Request) throws -> ResponseRepresentable {
         if var user = try req.auth.user() as? User {
@@ -133,11 +142,8 @@ class UserController {
             } catch {
                 print(error)
             }
-            var newUser = User(user: user)
-            newUser.token = ""
             do {
-                try user.delete()
-                try newUser.save()
+                
                 try req.auth.logout()
             } catch {
                 print(error)
@@ -159,6 +165,7 @@ class UserController {
         }
     }
 }
+
 extension Date {
     func toString() -> String? {
         let dateFormetter = DateFormatter()

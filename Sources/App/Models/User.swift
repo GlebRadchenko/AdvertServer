@@ -8,6 +8,7 @@
 
 import Foundation
 import Vapor
+import Fluent
 import Auth
 import BCrypt
 
@@ -25,14 +26,9 @@ final class User: Model {
         self.login = login
         self.hash = BCrypt.hash(password: password)
     }
-    init(user: User) {
-        self.name = user.name
-        self.login = user.login
-        self.hash = user.hash
-    }
     
     init(node: Node, in context: Context) throws {
-        id = try node.extract("id")
+        id = try node.extract("_id")
         name = try node.extract("name")
         login = try node.extract("login")
         hash = try node.extract("hash")
@@ -41,7 +37,7 @@ final class User: Model {
     
     func makeNode(context: Context) throws -> Node {
         return try Node(node: [
-            "id": id,
+            "_id": id,
             "name": name,
             "login": login,
             "hash": hash,
@@ -62,6 +58,17 @@ final class User: Model {
         try database.delete("users")
     }
 }
+extension User {
+    func beacons() throws -> [Beacon]{
+        let beacons = try Beacon.query()
+            .all()
+            .filter { (beacon) -> Bool in
+                return beacon.parent?.id == self.id
+        }
+        return beacons
+    }
+}
+
 extension User: Auth.User {
     static func authenticate(credentials: Credentials) throws -> Auth.User {
         var user: User?

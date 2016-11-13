@@ -15,13 +15,10 @@ drop.get { req in
     ])
 }
 //MARK: - Adding User routing
-let userController = UserController(drop: drop)
+let userController = UserController(with: drop)
 userController.setup()
+let beaconСontroller = BeaconController(with: drop)
+beaconСontroller.setup()
 
-let requestManager = RequestManager()
-requestManager.sendAsynchronous(request: ApplicationAction.fullInfo(id: "694609161")) { (data, error) in
-    JsonParser.appInfo(from: data)
-    print(error)
-}
 
 drop.run()
