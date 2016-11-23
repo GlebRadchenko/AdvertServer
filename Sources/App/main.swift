@@ -20,5 +20,4 @@ userController.setup()
 let beaconСontroller = BeaconController(with: drop)
 beaconСontroller.setup()
 
-
 drop.run()

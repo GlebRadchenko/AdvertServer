@@ -60,4 +60,7 @@ extension Beacon {
     func owner() throws -> Parent<User> {
         return try parent(parentId)
     }
+    func advertisments() throws -> Children<Advertisment> {
+        return children("parentId", Advertisment.self)
+    }
 }
