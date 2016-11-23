@@ -23,7 +23,6 @@ class UserController: DropConfigurable {
     required init(with drop: Droplet) {
         self.drop = drop
     }
-    
     func setup() {
         guard drop != nil else {
             debugPrint("no droplet in usercontroller")
@@ -117,7 +116,6 @@ class UserController: DropConfigurable {
             let password = req.data["password"]?.string else {
                 throw Abort.badRequest
         }
-        print(login, password)
         let creds = APIKey(id: login,
                            secret: password)
         do {

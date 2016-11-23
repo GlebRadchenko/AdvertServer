@@ -41,7 +41,7 @@ class BeaconController: DropConfigurable {
         
         tokenGroup.get(handler: beaconInfo)
         tokenGroup.post(handler: create)
-        tokenGroup.put(handler: edit)
+        tokenGroup.delete(handler: delete)
     }
     func beaconInfo(_ req: Request) throws -> ResponseRepresentable {
         //receive user with creds
@@ -86,7 +86,20 @@ class BeaconController: DropConfigurable {
             throw Abort.custom(status: .badRequest, message: error.localizedDescription)
         }
     }
-    func edit(_ req: Request) throws -> ResponseRepresentable {
-        throw Abort.custom(status: .badRequest, message: "Not implemented")
+    func delete(_ req: Request) throws -> ResponseRepresentable {
+        guard let id = req.data["id"] as? String else {
+            throw Abort.custom(status: .badGateway, message: "Wrong parameters")
+        }
+        do {
+            if let beacon = try Beacon.find(id) {
+                try beacon.delete()
+                return try JSON(node: ["error": false,
+                                       "message": "Deleting successed"])
+            } else {
+                throw Abort.custom(status: .notFound, message: "Cannot find such beacon")
+            }
+        } catch {
+            throw Abort.custom(status: .notFound, message: error.localizedDescription)
+        }
     }
 }
