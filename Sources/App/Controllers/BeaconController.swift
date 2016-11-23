@@ -91,12 +91,16 @@ class BeaconController: DropConfigurable {
             throw Abort.custom(status: .badGateway, message: "Wrong parameters")
         }
         do {
-            if let beacon = try Beacon.find(id) {
-                try beacon.delete()
-                return try JSON(node: ["error": false,
-                                       "message": "Deleting successed"])
+            if let user = try req.auth.user() as? User {
+                if let beaconToDelete = try user.beacons().filter("_id", id).first() {
+                    try beaconToDelete.delete()
+                    return try JSON(node: ["error": false,
+                                           "message": "Deleting successed"])
+                } else {
+                    throw Abort.custom(status: .notFound, message: "Cannot find such beacon")
+                }
             } else {
-                throw Abort.custom(status: .notFound, message: "Cannot find such beacon")
+                throw Abort.custom(status: .notFound, message: "Cannot find such user")
             }
         } catch {
             throw Abort.custom(status: .notFound, message: error.localizedDescription)
