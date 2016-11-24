@@ -19,5 +19,7 @@ let userController = UserController(with: drop)
 userController.setup()
 let beaconСontroller = BeaconController(with: drop)
 beaconСontroller.setup()
+let advertController = AdvertController(with: drop)
+advertController.setup()
 
 drop.run()

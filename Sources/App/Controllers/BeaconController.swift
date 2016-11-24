@@ -88,7 +88,7 @@ class BeaconController: DropConfigurable {
     }
     func delete(_ req: Request) throws -> ResponseRepresentable {
         guard let id = req.data["id"] as? String else {
-            throw Abort.custom(status: .badGateway, message: "Wrong parameters")
+            throw Abort.custom(status: .badRequest, message: "Wrong parameters")
         }
         do {
             if let user = try req.auth.user() as? User {

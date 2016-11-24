@@ -16,15 +16,14 @@ final class Advertisment: Model {
     var id: Node?
     var title: String
     var description: String
-    var media: String
+    var media: String?
     var parentId: Node?
     
     var exists: Bool = false
     
-    init(title: String, description: String, media: String) {
+    init(title: String, description: String) {
         self.title = title
         self.description = description
-        self.media = media
     }
     
     init(node: Node, in context: Context) throws {
@@ -49,7 +48,7 @@ final class Advertisment: Model {
             advertisments.id()
             advertisments.string("title")
             advertisments.string("description")
-            advertisments.string("media")
+            advertisments.string("media", length: nil, optional: true)
             advertisments.id("parentId", optional: false)
         }
     }
@@ -59,7 +58,7 @@ final class Advertisment: Model {
     }
 }
 extension Advertisment {
-    func owner() throws -> Parent<Beacon> {
+    func beacon() throws -> Parent<Beacon> {
         return try parent(parentId)
     }
 }
