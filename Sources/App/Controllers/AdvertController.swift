@@ -39,28 +39,59 @@ class AdvertController: DropConfigurable {
         let authMiddleware = UserAuthorizedMiddleware()
         let tokenGroup = advertGroup.grouped(authMiddleware)
         
-        tokenGroup.get(handler: advertInfo)
+        advertGroup.get(handler: advertInfo)
+        advertGroup.get("all", handler: getAll)
         tokenGroup.post(handler: create)
         tokenGroup.put(handler: edit)
         tokenGroup.delete(handler: delete)
     }
+    func getAll(_ req: Request) throws -> ResponseRepresentable {
+        guard let beaconIdsString = req.data["beacons_id"]?.string else {
+            throw Abort.custom(status: .badRequest, message: "No beacon_ids")
+        }
+        let arrayOfIds = beaconIdsString.components(separatedBy: ",")
+        do {
+            var arrayOfNodes = [Node]()
+            var processedIds: [String] = []
+            for beaconId in arrayOfIds {
+                if processedIds.contains(beaconId) {
+                    continue
+                }
+                do {
+                    let atomaryNode = try advertismentNodes(for: beaconId)
+                    arrayOfNodes.append(atomaryNode)
+                    processedIds.append(beaconId)
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+            let arrayNode = Node.array(arrayOfNodes)
+            return try JSON(node: arrayNode)
+        } catch {
+            throw Abort.custom(status: .badRequest, message: error.localizedDescription)
+        }
+    }
+    func advertismentNodes(for beaconId: String) throws -> Node {
+        guard let beacon = try Beacon.find(beaconId),
+            let user = try beacon.owner().get() else {
+                throw Abort.notFound
+        }
+        let advertNodes = try beacon.advertisments()
+            .all()
+            .map() { (advertisment) -> Node in
+                return try advertisment.makeNode()
+        }
+        let ownerNode = Node.string(user.name)
+        let responseNode = Node.object(["owner": ownerNode,
+                                        "advertisments" : Node.array(advertNodes)])
+        return responseNode
+    }
     func advertInfo(_ req: Request) throws -> ResponseRepresentable {
-        guard let beaconId = req.data["beacon_id"] as? String else {
+        guard let beaconId = req.data["beacon_id"]?.string else {
             throw Abort.custom(status: .badRequest, message: "No beacon_id")
         }
         do {
-            guard let beacon = try Beacon.find(beaconId),
-                let user = try beacon.owner().get() else {
-                throw Abort.notFound
-            }
-            let advertNodes = try beacon.advertisments()
-                .all()
-                .map() { (advertisment) -> Node in
-                    return try advertisment.makeNode()
-            }
-            let ownerNode = Node.string(user.name)
-            let responseNode = Node.object(["owner": ownerNode,
-                                            "advertisments" : Node.array(advertNodes)])
+            let responseNode = try advertismentNodes(for: beaconId)
             let json = try JSON(node: responseNode)
             return json
         } catch {
