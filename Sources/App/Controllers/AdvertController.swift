@@ -48,26 +48,24 @@ class AdvertController: DropConfigurable {
         guard let beaconId = req.data["beacon_id"] as? String else {
             throw Abort.custom(status: .badRequest, message: "No beacon_id")
         }
-        //receive user with creds
-        if let user = try req.auth.user() as? User {
-            do {
-                guard let beacon = try user.beacons()
-                    .filter("id", contains: beaconId)
-                    .first() else {
-                        throw Abort.notFound
-                }
-                let advertNodes = try beacon.advertisments()
-                    .all()
-                    .map() { (advertisment) -> Node in
-                        return try advertisment.makeNode()
-                }
-                let json = try JSON(node: advertNodes)
-                return json
-            } catch {
-                throw Abort.custom(status: .badRequest, message: error.localizedDescription)
+        do {
+            guard let beacon = try Beacon.find(beaconId),
+                let user = try beacon.owner().get() else {
+                throw Abort.notFound
             }
+            let advertNodes = try beacon.advertisments()
+                .all()
+                .map() { (advertisment) -> Node in
+                    return try advertisment.makeNode()
+            }
+            let ownerNode = Node.string(user.name)
+            let responseNode = Node.object(["owner": ownerNode,
+                                            "advertisments" : Node.array(advertNodes)])
+            let json = try JSON(node: responseNode)
+            return json
+        } catch {
+            throw Abort.custom(status: .badRequest, message: error.localizedDescription)
         }
-        throw Abort.custom(status: .badRequest, message: "Invalid credentials")
     }
     func create(_ req: Request) throws -> ResponseRepresentable {
         guard let title = req.data["title"]?.string,
