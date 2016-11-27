@@ -87,11 +87,21 @@ class AdvertController: DropConfigurable {
         return responseNode
     }
     func advertInfo(_ req: Request) throws -> ResponseRepresentable {
-        guard let beaconId = req.data["beacon_id"]?.string else {
+        guard let major = req.data["major"]?.string,
+        let minor = req.data["minor"]?.string,
+            let udid = req.data["udid"]?.string else {
             throw Abort.custom(status: .badRequest, message: "No beacon_id")
         }
         do {
-            let responseNode = try advertismentNodes(for: beaconId)
+            guard let beacon = try Beacon
+                .query()
+                .filter("major", major)
+                .filter("minor", minor)
+                .filter("udid", udid)
+                .first(), let id = beacon.id?.string else {
+                    return try JSON(node: [])
+            }
+            let responseNode = try advertismentNodes(for: id)
             let json = try JSON(node: responseNode)
             return json
         } catch {
