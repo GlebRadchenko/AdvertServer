@@ -126,8 +126,10 @@ class UserController: DropConfigurable {
             }
             user.token = self.token(for: user)
             try user.save()
-            let node = ["message": "Logged in", "access_token" : user.token]
-            return try JSON(node: node)
+            let jsonNode = Node.object(["message": Node("Logged in"),
+                                        "user": try user.makeNode(),
+                                        "access_token": Node(user.token)])
+            return try JSON(node: jsonNode)
         } catch {
             throw Abort.custom(status: .badRequest, message: "Invalid data")
         }
